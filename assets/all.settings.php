@@ -13,7 +13,7 @@
 // via the browser. If your Drupal root is inside a subfolder (like 'web') you can put the config
 // folder outside this subfolder for an advanced security measure: '../config/sync'.
 $settings['config_sync_directory'] = '../config';
-
+$settings['file_private_path'] = '../private';
 if (getenv('LAGOON_ENVIRONMENT_TYPE') !== 'production') {
     /**
      * Skip file system permissions hardening.
