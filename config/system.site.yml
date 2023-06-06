@@ -1,14 +1,14 @@
 _core:
-  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: f9122d7c-bd4b-4cdb-8ee5-26b7caef1b26
-name: 'D9 Test'
-mail: test@drupalcontribution.org
+uuid: 7bfc6e9e-9ebf-4e59-91b1-9f9052d99798
+name: 'Drush Site-Install'
+mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /stream
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

@@ -1,28 +1,68 @@
-uuid: ceef376c-94e0-424a-b578-c86436e309b5
+uuid: cc527a67-d41d-4cbf-9181-790d6a44d36d
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.page.body
+    - field.field.node.page.field_content_visibility
+    - field.field.node.page.field_files
+    - field.field.node.page.field_page_comments
+    - field.field.node.page.field_page_image
+    - image.style.social_file_thumbnails
     - node.type.page
   module:
+    - comment
+    - social_core
     - text
     - user
 _core:
-  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+  default_config_hash: dMZRBGoDzsbkGemEXeT4Z4oucG8EyOiU2K3HcHbFyLg
 id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
 content:
   body:
-    type: text_default
     label: hidden
+    type: text_default
+    weight: 0
     settings: {  }
     third_party_settings: {  }
-    weight: 100
     region: content
+  field_files:
+    weight: 1
+    label: above
+    settings:
+      image_style: social_file_thumbnails
+      image_link: file
+    third_party_settings: {  }
+    type: file_image_default
+    region: content
+  field_page_comments:
+    weight: 2
+    label: above
+    settings:
+      pager_id: 0
+      view_mode: default
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  flag_follow_content:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   links:
-    weight: 101
+    weight: 11
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_content_visibility: true
+  field_page_image: true
+  groups: true
+  groups_type_closed_group: true
+  groups_type_open_group: true
+  groups_type_public_group: true
+  search_api_excerpt: true

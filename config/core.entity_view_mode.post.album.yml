@@ -1,0 +1,12 @@
+uuid: 16f2ea5f-97c8-470d-92d6-b0bad9509f04
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_post
+_core:
+  default_config_hash: 3e0sWZaEmXPIiNCWokIYxArWrElMfKXORguC-nnoh6k
+id: post.album
+label: Album
+targetEntityType: post
+cache: true

@@ -1,0 +1,17 @@
+uuid: 7efed7c9-9bf3-4f8f-9acd-88f81b01f5fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.open_group
+  enforced:
+    config:
+      - user.role.verified
+id: open_group-110ebb57a
+label: 'Verified user'
+weight: 3
+internal: true
+audience: outsider
+group_type: open_group
+permissions_ui: false
+permissions: {  }

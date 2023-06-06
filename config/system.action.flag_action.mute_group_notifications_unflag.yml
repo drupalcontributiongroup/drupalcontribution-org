@@ -1,0 +1,15 @@
+uuid: 7dd0ca2f-23dc-4d5d-840c-956eb727f1dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mute_group_notifications
+  module:
+    - flag
+id: flag_action.mute_group_notifications_unflag
+label: 'Unmute group'
+type: group
+plugin: 'flag_action:mute_group_notifications_unflag'
+configuration:
+  flag_id: mute_group_notifications
+  flag_action: unflag

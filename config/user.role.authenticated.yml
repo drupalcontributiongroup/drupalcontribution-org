@@ -1,18 +1,22 @@
-uuid: 9c5ac480-0b96-4bc4-b7c3-5856be7ce65f
+uuid: c91cfcd8-47c9-44cd-a3ae-03da30da23db
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - filter.format.simple_text
   module:
     - comment
-    - contact
+    - entity_access_by_field
     - filter
-    - search
-    - shortcut
+    - node
+    - profile
+    - social_like
+    - social_post
+    - social_search
     - system
 _core:
-  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
 label: 'Authenticated user'
 weight: 1
@@ -20,9 +24,21 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
-  - 'post comments'
-  - 'search content'
-  - 'skip comment approval'
+  - 'access content search'
+  - 'access group search'
+  - 'add own profile profile'
+  - 'cancel account'
+  - 'change own username'
+  - 'update own profile profile'
   - 'use text format basic_html'
+  - 'use text format simple_text'
+  - 'view like widget'
+  - 'view node.event.field_content_visibility:public content'
+  - 'view node.page.field_content_visibility:public content'
+  - 'view node.topic.field_content_visibility:public content'
+  - 'view own profile profile'
+  - 'view own unpublished content'
+  - 'view profile'
+  - 'view public posts'
+  - 'view published post entities'
+  - 'view the administration theme'

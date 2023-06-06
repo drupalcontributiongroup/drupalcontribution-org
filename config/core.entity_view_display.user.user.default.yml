@@ -1,32 +1,23 @@
-uuid: 46f02579-17a2-4cd4-84bf-176a919a912f
+uuid: 6a423fbd-e00a-4d08-af29-495ec87fc4c7
 langcode: en
 status: true
 dependencies:
-  config:
-    - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
-    - image
     - user
 _core:
-  default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
+  default_config_hash: m2KUyVd52WOjOKfANphGWnvnM6AzChT6cogYWkk_efo
 id: user.user.default
 targetEntityType: user
 bundle: user
 mode: default
-content:
-  member_for:
-    weight: 5
-    region: content
-  user_picture:
-    type: image
-    label: hidden
-    settings:
-      image_style: thumbnail
-      image_link: content
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 0
-    region: content
-hidden: {  }
+content: {  }
+hidden:
+  groups: true
+  groups_type_closed_group: true
+  groups_type_open_group: true
+  groups_type_public_group: true
+  member_for: true
+  profile_main: true
+  profile_profile: true
+  profile_profiles: true
+  search_api_excerpt: true

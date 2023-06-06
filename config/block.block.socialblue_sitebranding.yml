@@ -1,0 +1,25 @@
+uuid: cbb12fd9-47ee-41d9-a536-e9696ce33399
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - socialblue
+_core:
+  default_config_hash: nUdhCVU-Y9wjS1Ei29Kt1VN1rLZc6dn0nJQSHJv2Vg8
+id: socialblue_sitebranding
+theme: socialblue
+region: header
+weight: 3
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

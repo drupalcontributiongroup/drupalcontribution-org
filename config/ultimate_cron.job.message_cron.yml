@@ -1,0 +1,17 @@
+uuid: 51db4c89-366a-4f54-80b9-041f93a6cfa0
+langcode: en
+status: true
+dependencies:
+  module:
+    - message
+title: 'Default cron handler'
+id: message_cron
+weight: 0
+module: message
+callback: message_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

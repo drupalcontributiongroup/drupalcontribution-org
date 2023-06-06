@@ -1,17 +1,16 @@
-uuid: 6e11b5aa-cb91-4f74-877e-b4c893a093b6
+uuid: 2f209c5a-1e10-4c34-91fc-f577a1992f07
 langcode: en
 status: true
 dependencies:
-  config:
-    - filter.format.restricted_html
   module:
     - comment
-    - contact
-    - filter
-    - search
+    - entity_access_by_field
+    - social_like
+    - social_post
+    - social_search
     - system
 _core:
-  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
 label: 'Anonymous user'
 weight: 0
@@ -19,6 +18,11 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
-  - 'access site-wide contact form'
-  - 'search content'
-  - 'use text format restricted_html'
+  - 'access content search'
+  - 'access group search'
+  - 'view like widget'
+  - 'view node.event.field_content_visibility:public content'
+  - 'view node.page.field_content_visibility:public content'
+  - 'view node.topic.field_content_visibility:public content'
+  - 'view public posts'
+  - 'view published post entities'

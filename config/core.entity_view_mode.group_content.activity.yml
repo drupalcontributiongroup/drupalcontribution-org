@@ -1,0 +1,12 @@
+uuid: 233d5722-3e67-41d0-abce-aee336df9003
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+_core:
+  default_config_hash: o_IxY7_UvAbKVjxvwd8Dpga0PNHtREBzSSB_yXfI0vU
+id: group_content.activity
+label: Activity
+targetEntityType: group_content
+cache: true
