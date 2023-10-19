@@ -21,11 +21,12 @@
         }
     ],
     "require": {
+        "php": "^8.0",
         "amazeeio/drupal_integrations": "0.3.7",
+        "drupal/geolocation": "^3.12",
         "drupal/lagoon_logs": "2.1.1",
         "drush/drush": "11.5.1",
         "goalgorilla/open_social": "^11.8.0",
-        "php": "^8.0",
         "monolog/monolog": "^2.3.5"
     },
     "require-dev": {
