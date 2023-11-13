@@ -10,23 +10,47 @@
             "email": "uselagoon@amazee.io"
         }
     ],
-    "repositories": [
-        {
+    "repositories": {
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://opensocial.repo.packagist.com/drupalcon-na/"
+        },
+        "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        {
+        "1": {
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ],
+    },
     "require": {
         "php": "^8.0",
         "amazeeio/drupal_integrations": "0.3.7",
+        "drupal/activity_send_push": "^2.0",
+        "drupal/disable_user_1_edit": "^1.6",
         "drupal/geolocation": "^3.12",
+        "drupal/google_analytics": "^4.0",
+        "drupal/key": "^1.17",
+        "drupal/kpi_analytics": "^3.1",
         "drupal/lagoon_logs": "2.1.1",
+        "drupal/layout_builder_restrictions": "^2.19",
+        "drupal/login_tracker": "^2.0",
+        "drupal/monolog": "^2.2",
+        "drupal/redis": "^1.7",
+        "drupal/smart_trim": "^2.1",
+        "drupal/social_api": "^4.0",
+        "drupal/social_auth": "^4.1",
+        "drupal/social_geolocation": "^2.2",
+        "drupal/social_kpi_lite": "^4.1",
+        "drupal/social_kpi_lite_user_login": "^4.1",
+        "drupal/social_pwa": "^2.0",
+        "drupal/social_search_autocomplete": "^2.0",
+        "drupal/taxonomy_access_fix": "^4.0",
         "drush/drush": "11.5.1",
-        "goalgorilla/open_social": "^11.8.0",
+        "goalgorilla/open_social": "^11.11",
+        "goalgorilla/social_dashboard": "^2023.22",
+        "goalgorilla/social_layout_builder": "^2023.22",
         "monolog/monolog": "^2.3.5"
     },
     "require-dev": {
@@ -59,10 +83,11 @@
             "web/libraries/{$name}": [
                 "type:drupal-library",
                 "vendor:npm-asset",
-                "vendor:bower-asset"	
+                "vendor:bower-asset"
             ],
             "web/modules/contrib/{$name}": [
-                "type:drupal-module"
+                "type:drupal-module",
+                "type:open-social-extension"
             ],
             "web/profiles/contrib/{$name}": [
                 "type:drupal-profile"
@@ -82,7 +107,8 @@
         },
         "installer-types": [
             "bower-asset",
-            "npm-asset"
+            "npm-asset",
+            "open-social-extension"
         ],
         "drupal-scaffold": {
             "allowed-packages": [
