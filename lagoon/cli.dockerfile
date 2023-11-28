@@ -1,4 +1,5 @@
 FROM uselagoon/php-8.1-cli-drupal:latest
+ARG COMPOSER_AUTH
 RUN apk add --no-cache gmp-dev
 RUN docker-php-ext-install -j4 gmp
 COPY composer.* /app/
