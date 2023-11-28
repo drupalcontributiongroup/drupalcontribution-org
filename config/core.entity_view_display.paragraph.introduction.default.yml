@@ -1,0 +1,61 @@
+uuid: 75505470-8304-4581-a10c-377788fc0b42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.introduction.field_introduction_link_an
+    - field.field.paragraph.introduction.field_introduction_link_lu
+    - field.field.paragraph.introduction.field_introduction_text
+    - field.field.paragraph.introduction.field_introduction_title
+    - paragraphs.paragraphs_type.introduction
+  module:
+    - link
+    - text
+_core:
+  default_config_hash: tEBYiw2czslTCvDYt8t39gZ8rmOEdB7Y87ebsvQbTKI
+id: paragraph.introduction.default
+targetEntityType: paragraph
+bundle: introduction
+mode: default
+content:
+  field_introduction_link_an:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_introduction_link_lu:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_introduction_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_introduction_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

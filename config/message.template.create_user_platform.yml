@@ -1,0 +1,40 @@
+uuid: 7a4eedef-cf53-43ee-88d9-74c4464635ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_logger
+third_party_settings:
+  activity_logger:
+    activity_bundle_entities:
+      profile-profile: profile-profile
+    activity_action: create_entitiy_action
+    activity_context: platform_activity_context
+    activity_destinations:
+      platform_email: platform_email
+    activity_create_direct: false
+    email_subject: ''
+_core:
+  default_config_hash: QZu4ykjEQy0tt1wKE3izEnu52O2FA6VvLGW3yGUwtQU
+template: create_user_platform
+label: 'New user in the platform'
+description: 'A new user created in the platform'
+text:
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> created a new profile in the platform</p>'
+    format: full_html
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> created a new profile in the platform</p>'
+    format: full_html
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> created a new profile in the platform</p>'
+    format: full_html
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge:
+    override: false
+    enabled: false
+    quota: null
+    days: null

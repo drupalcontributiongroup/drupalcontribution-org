@@ -1,0 +1,60 @@
+uuid: 96ec4c4f-021d-4628-82e8-2cb6e0ec0b98
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.hero_small.field_hero_small_buttons
+    - field.field.paragraph.hero_small.field_hero_small_image
+    - field.field.paragraph.hero_small.field_hero_small_subtitle
+    - field.field.paragraph.hero_small.field_hero_small_title
+    - image.style.social_featured
+    - paragraphs.paragraphs_type.hero_small
+  module:
+    - entity_reference_revisions
+    - image
+_core:
+  default_config_hash: F2kJwQ-aTJrhVrQcXHkTRhN4FTVGLqWqxHm915fS564
+id: paragraph.hero_small.preview
+targetEntityType: paragraph
+bundle: hero_small
+mode: preview
+content:
+  field_hero_small_buttons:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_hero_small_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: social_featured
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_hero_small_subtitle:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_hero_small_title:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

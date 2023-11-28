@@ -1,0 +1,43 @@
+uuid: f0546fd9-540c-4d7a-9ce0-29e4caf028d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.mail_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: 0ZuIyRqFfckI3FxNFvdEw4Qp4TI80a59GSXvtraNP7g
+format: mail_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Underline
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Aligment
+          items:
+            - JustifyBlock
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+  plugins: {  }
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

@@ -1,0 +1,16 @@
+uuid: bab1f154-09f4-4590-8b7c-9a84be0f2a0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: F7wGirFiukBMF4mJnr6DHT0BmVY3epIIwg5aUldBMF8
+id: default_taxonomy_terms
+label: 'default taxonomy terms'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary]/[term:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,59 +1,76 @@
-uuid: 4fd5353a-bfd0-4f32-9892-256d1fc42376
+uuid: ee7fddbb-87a4-4414-8681-37b39661c4b2
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.full_html
   module:
-    - ckeditor5
+    - ckeditor
 _core:
-  default_config_hash: a0UeuvbLLshU7EeXK0lLcsZYdDuR4ByvaYRhrX_84mo
+  default_config_hash: YvMwqCuM0QsEzQEGaa64MAB9Me3w6oUCfBuOAni-xmk
 format: full_html
-editor: ckeditor5
+editor: ckeditor
 settings:
   toolbar:
-    items:
-      - bold
-      - italic
-      - strikethrough
-      - superscript
-      - subscript
-      - removeFormat
-      - '|'
-      - link
-      - '|'
-      - bulletedList
-      - numberedList
-      - '|'
-      - blockQuote
-      - drupalInsertImage
-      - insertTable
-      - horizontalLine
-      - '|'
-      - heading
-      - codeBlock
-      - '|'
-      - sourceEditing
+    rows:
+      -
+        0:
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Strike
+            - Superscript
+            - Subscript
+            - '-'
+            - RemoveFormat
+        1:
+          name: Alignment
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+        2:
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        3:
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        4:
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+            - Table
+            - HorizontalRule
+        5:
+          name: 'Block Formatting'
+          items:
+            - Format
+            - Styles
+        6:
+          name: Tools
+          items:
+            - ShowBlocks
+            - Source
+            - Maximize
+        8:
+          name: Embed
+          items:
+            - social_embed
   plugins:
-    ckeditor5_heading:
-      enabled_headings:
-        - heading2
-        - heading3
-        - heading4
-        - heading5
-        - heading6
-    ckeditor5_sourceEditing:
-      allowed_tags: {  }
-    ckeditor5_list:
-      reversed: true
-      startIndex: true
-    ckeditor5_imageResize:
-      allow_resize: true
+    stylescombo:
+      styles: "a.btn.btn-default|Default link\r\na.btn.btn-primary|Primary link\r\na.btn.btn-accent|Accent link\r\nspan.badge.badge-primary|Primary badge\r\nspan.badge.badge-secondary|Secondary badge\r\nspan.badge.badge--pill.badge-default|Pill badge"
 image_upload:
   status: true
-  scheme: public
+  scheme: private
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

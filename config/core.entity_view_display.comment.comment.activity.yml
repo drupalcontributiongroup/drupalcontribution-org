@@ -1,0 +1,40 @@
+uuid: b9025b92-aa28-4112-9778-34514c58c953
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - core.entity_view_mode.comment.activity
+    - field.field.comment.comment.field_comment_body
+    - field.field.comment.comment.field_comment_files
+  module:
+    - text
+_core:
+  default_config_hash: JfWJ_0jsxBNlhVM_DrEYubX0YBWRKwgdVmX-BgzXSpw
+id: comment.comment.activity
+targetEntityType: comment
+bundle: comment
+mode: activity
+content:
+  field_comment_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  like_and_dislike:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_comment_files: true
+  langcode: true
+  private_message_link: true
+  search_api_excerpt: true

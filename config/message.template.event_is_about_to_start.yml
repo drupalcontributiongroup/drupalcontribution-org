@@ -1,0 +1,40 @@
+uuid: 74691ab4-3d11-4995-853b-d883524bc3f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_logger
+third_party_settings:
+  activity_logger:
+    activity_bundle_entities:
+      node-event: node-event
+    activity_action: event_before_start_action
+    activity_context: enrollees_activity_context
+    activity_destinations:
+      notifications: notifications
+      email: email
+    activity_create_direct: true
+    activity_aggregate: false
+    activity_entity_condition: ''
+    email_subject: ''
+_core:
+  default_config_hash: sV7blaqwH7NWjqzhnktKpmzFiHznR93e2XT86pfU0_E
+template: event_is_about_to_start
+label: 'Event is about to start'
+description: 'Send notification to enrollees before event starts'
+text:
+  -
+    value: "<p>Event&nbsp;<a href=\"[message:field_message_related_object:entity:url:absolute]\">[message:field_message_related_object:entity:title]</a> is about to start at&nbsp;[message:field_message_related_object:entity:field_event_date:date:day_month_time]</p>\r\n"
+    format: full_html
+  -
+    value: "<p>Event&nbsp;<a href=\"[message:field_message_related_object:entity:url:absolute]\">[message:field_message_related_object:entity:title]</a> is about to start at&nbsp;[message:field_message_related_object:entity:field_event_date:date:day_month_time]</p>\r\n"
+    format: full_html
+  -
+    value: "<p>Event&nbsp;<a href=\"[message:field_message_related_object:entity:url:absolute]\">[message:field_message_related_object:entity:title]</a> is about to start at&nbsp;[message:field_message_related_object:entity:field_event_date:date:day_month_time]</p>\r\n"
+    format: full_html
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

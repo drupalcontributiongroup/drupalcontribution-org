@@ -1,0 +1,22 @@
+palette:
+  brand-primary: '#0B557B'
+  brand-secondary: '#424242'
+  brand-accent: '#E32C4B'
+  brand-accent-text: '#343434'
+  brand-link: '#0B557B'
+  navbar-bg: '#ffffff'
+  navbar-text: '#0B557B'
+  navbar-active-bg: '#0B557B'
+  navbar-active-text: '#f3f3f3'
+  navbar-sec-bg: '#0B557B'
+  navbar-sec-text: '#f9f9f9'
+logo: 'public://color/socialblue-86251a43/logo.svg'
+stylesheets:
+  - 'public://color/socialblue-86251a43/brand.css'
+  - 'public://color/socialblue-86251a43/brand--sky.css'
+  - 'public://color/socialblue-86251a43/tokens.css'
+files:
+  - 'public://color/socialblue-86251a43/logo.svg'
+  - 'public://color/socialblue-86251a43/brand.css'
+  - 'public://color/socialblue-86251a43/brand--sky.css'
+  - 'public://color/socialblue-86251a43/tokens.css'

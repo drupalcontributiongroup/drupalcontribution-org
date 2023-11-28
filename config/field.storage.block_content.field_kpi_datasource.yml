@@ -1,0 +1,23 @@
+uuid: 4ce2df22-ba99-45ed-834e-ac88fad7aef1
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+_core:
+  default_config_hash: GVJ5N0yeyX6u9qXGM2dR2dFohCMw2UyI_GE53drzcT4
+id: block_content.field_kpi_datasource
+field_name: field_kpi_datasource
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: _kpi_datasource_allowed_values
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

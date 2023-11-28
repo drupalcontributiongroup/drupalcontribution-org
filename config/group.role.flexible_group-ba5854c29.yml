@@ -1,0 +1,17 @@
+uuid: 853722ce-e03d-47ef-abf9-8c30ede011ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.flexible_group
+  enforced:
+    config:
+      - user.role.sitemanager
+id: flexible_group-ba5854c29
+label: 'Site manager'
+weight: 110
+internal: true
+audience: outsider
+group_type: flexible_group
+permissions_ui: false
+permissions: {  }

@@ -1,0 +1,22 @@
+uuid: 76f0fc13-485b-45d6-860a-151ec1a72465
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - group
+_core:
+  default_config_hash: y0Y7Jyg2z0_UzVV_pvMbKebQ-qfgkTlmycnQxA129H4
+id: block_content.field_event_group
+field_name: field_event_group
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: group
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

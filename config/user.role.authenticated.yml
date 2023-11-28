@@ -1,28 +1,56 @@
-uuid: 9c5ac480-0b96-4bc4-b7c3-5856be7ce65f
+uuid: 40d49ec8-cd07-44c5-8137-4b70fb11e4a5
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - filter.format.simple_text
+    - taxonomy.vocabulary.event_types
+    - taxonomy.vocabulary.topic_types
   module:
-    - comment
-    - contact
+    - data_policy
+    - entity_access_by_field
     - filter
-    - search
-    - shortcut
+    - node
+    - profile
+    - social_embed
+    - social_like
+    - social_post
+    - social_search
     - system
+    - taxonomy_access_fix
 _core:
-  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
 label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - 'access comments'
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
-  - 'post comments'
-  - 'search content'
-  - 'skip comment approval'
+  - 'access content search'
+  - 'access group search'
+  - 'cancel account'
+  - 'change own username'
+  - 'generate social embed content'
+  - 'select terms in event_types'
+  - 'select terms in topic_types'
+  - 'update own profile profile'
   - 'use text format basic_html'
+  - 'use text format simple_text'
+  - 'view like widget'
+  - 'view node.book.field_content_visibility:public content'
+  - 'view node.dashboard.field_content_visibility:public content'
+  - 'view node.event.field_content_visibility:public content'
+  - 'view node.landing_page.field_content_visibility:public content'
+  - 'view node.page.field_content_visibility:public content'
+  - 'view node.topic.field_content_visibility:public content'
+  - 'view own profile profile'
+  - 'view own unpublished content'
+  - 'view public posts'
+  - 'view published post entities'
+  - 'view term names in event_types'
+  - 'view term names in topic_types'
+  - 'view terms in event_types'
+  - 'view terms in topic_types'
+  - 'view the administration theme'
+  - 'without consent'

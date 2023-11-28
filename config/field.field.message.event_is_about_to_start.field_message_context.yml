@@ -1,0 +1,21 @@
+uuid: d466374e-00ce-4250-933f-d08b3488869a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_context
+    - message.template.event_is_about_to_start
+  module:
+    - options
+id: message.event_is_about_to_start.field_message_context
+field_name: field_message_context
+entity_type: message
+bundle: event_is_about_to_start
+label: field_message_context
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

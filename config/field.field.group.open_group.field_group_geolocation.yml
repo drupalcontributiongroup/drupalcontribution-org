@@ -1,0 +1,26 @@
+uuid: c18f88a9-4089-4f0e-b286-f3a4cbe636ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_group_geolocation
+    - group.type.open_group
+  module:
+    - geolocation
+  enforced:
+    module:
+      - social_geolocation
+_core:
+  default_config_hash: LvPF68g0xeCovhzOPOYMdScLVfKjkEl6jQ7vaTOsqqw
+id: group.open_group.field_group_geolocation
+field_name: field_group_geolocation
+entity_type: group
+bundle: open_group
+label: Geolocation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

@@ -1,4 +1,4 @@
-uuid: be9a2e82-5063-4208-97e6-fdd875f6ddda
+uuid: d28e75b5-bfbe-411a-b7e7-36cea84ce686
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - claro
 _core:
-  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
+  default_config_hash: QTwkfDaGeBUk6aerktJBDXso4fCsqLTQOuWKXE1xMPU
 id: claro_content
 theme: claro
 region: content

@@ -1,0 +1,10 @@
+text:
+  -
+    value: "<p>Event&nbsp;<a href=\"[message:field_message_related_object:entity:url:absolute]\">[message:field_message_related_object:entity:title]</a> is about to start at&nbsp;[message:field_message_related_object:entity:field_event_date:date:day_month_time]</p>\r\n"
+    format: full_html
+  -
+    value: "<p>Event&nbsp;<a href=\"[message:field_message_related_object:entity:url:absolute]\">[message:field_message_related_object:entity:title]</a> is about to start at&nbsp;[message:field_message_related_object:entity:field_event_date:date:day_month_time]</p>\r\n"
+    format: full_html
+  -
+    value: "<p>Event&nbsp;<a href=\"[message:field_message_related_object:entity:url:absolute]\">[message:field_message_related_object:entity:title]</a> is about to start at&nbsp;[message:field_message_related_object:entity:field_event_date:date:day_month_time]</p>\r\n"
+    format: full_html

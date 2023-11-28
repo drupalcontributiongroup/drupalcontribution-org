@@ -1,0 +1,17 @@
+uuid: bc309a1b-cb91-40a4-8046-42fe31542235
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+  enforced:
+    config:
+      - user.role.verified
+id: public_group-110ebb57a
+label: 'Verified User'
+weight: 5
+internal: true
+audience: outsider
+group_type: public_group
+permissions_ui: false
+permissions: {  }

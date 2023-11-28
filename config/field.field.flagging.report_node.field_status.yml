@@ -1,0 +1,28 @@
+uuid: fdb153e0-2561-4595-9f91-a3ebb06640f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.flagging.field_status
+    - flag.flag.report_node
+  enforced:
+    module:
+      - social_content_report
+_core:
+  default_config_hash: NjoDl2zyQ1szLslvl6uzRH_-Z0Ejiuw4AbUEVR7gvSc
+id: flagging.report_node.field_status
+field_name: field_status
+entity_type: flagging
+bundle: report_node
+label: Status
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Active
+  off_label: Closed
+field_type: boolean

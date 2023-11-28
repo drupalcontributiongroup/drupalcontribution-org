@@ -1,0 +1,17 @@
+uuid: 7d58acdd-ccad-4e65-b4a8-5d80d3c9a3af
+langcode: en
+status: true
+dependencies:
+  module:
+    - login_tracker
+title: 'Default cron handler'
+id: login_tracker_cron
+weight: 0
+module: login_tracker
+callback: login_tracker_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

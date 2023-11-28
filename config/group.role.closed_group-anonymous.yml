@@ -1,0 +1,16 @@
+uuid: d6465085-65df-4268-910e-01f8bb6ff648
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.closed_group
+_core:
+  default_config_hash: 5DfziQdlR8jLbObASKjn1-Ro26o1TjM-2IByCWNwqLQ
+id: closed_group-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: closed_group
+permissions_ui: true
+permissions: {  }

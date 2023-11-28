@@ -1,0 +1,47 @@
+uuid: 78906ec2-8fcc-4104-be04-bd87efd1c3c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_message
+    - social_private_message
+    - text
+_core:
+  default_config_hash: bY60CRy-1iA05ELhvP1G7mki9KT4YbhNEoh-HzFbwAw
+id: private_message.private_message.default
+targetEntityType: private_message
+bundle: private_message
+mode: default
+content:
+  created:
+    type: timestamp_ago
+    label: hidden
+    settings:
+      future_format: '@interval hence'
+      past_format: '@interval ago'
+      granularity: 1
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  message:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  owner:
+    type: social_private_message_owner_formatter
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  timestamp:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

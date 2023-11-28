@@ -1,0 +1,42 @@
+uuid: 7c1675ec-6b7d-4135-a361-58635d4907fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_logger
+third_party_settings:
+  activity_logger:
+    activity_bundle_entities:
+      group-open_group: group-open_group
+      group-closed_group: group-closed_group
+      group-public_group: group-public_group
+    activity_action: create_entitiy_action
+    activity_context: platform_activity_context
+    activity_destinations:
+      platform_email: platform_email
+    activity_create_direct: false
+    email_subject: ''
+_core:
+  default_config_hash: 8F91kpBuXp9__cs96lSxnQJ4BusOXrjgyuEjTKQOiNE
+template: create_group_platform
+label: 'New group in the platform'
+description: 'A new group created in the platform'
+text:
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> created group <a href="[message:gurl]">[message:gtitle]</a> in the platform</p>'
+    format: full_html
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> created group <a href="[message:gurl]">[message:gtitle]</a> in the platform</p>'
+    format: full_html
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> created group <a href="[message:gurl]">[message:gtitle]</a> in the platform</p>'
+    format: full_html
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge:
+    override: false
+    enabled: false
+    quota: null
+    days: null

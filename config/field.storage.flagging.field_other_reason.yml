@@ -1,0 +1,24 @@
+uuid: 38a22a8a-08ae-43ad-80fd-b36ca67b72c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+  enforced:
+    module:
+      - social_content_report
+_core:
+  default_config_hash: sajGJIpno4epfMnDx5FH_QC2sqZWViqbziPOQqLxm-8
+id: flagging.field_other_reason
+field_name: field_other_reason
+entity_type: flagging
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

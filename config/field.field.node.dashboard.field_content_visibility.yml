@@ -1,0 +1,23 @@
+uuid: 018a157d-9c8c-416d-8c9f-e6be87c7ac68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_visibility
+    - node.type.dashboard
+  module:
+    - entity_access_by_field
+_core:
+  default_config_hash: 6PSZVw1J3zeqCVx6Y_dVV7R0n0S1u4BnK5Wkuyl9oVw
+id: node.dashboard.field_content_visibility
+field_name: field_content_visibility
+entity_type: node
+bundle: dashboard
+label: Visibility
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: entity_access_field

@@ -1,0 +1,21 @@
+uuid: 68f83cf7-95e9-455e-bdb0-aec69db44103
+langcode: en
+status: true
+dependencies:
+  module:
+    - data_policy
+    - text
+_core:
+  default_config_hash: '-fQ5PPJaVx3_E55NdBqdCDcq8stA3P9C2RLBK3B_PD8'
+id: data_policy.field_description
+field_name: field_description
+entity_type: data_policy
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

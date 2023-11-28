@@ -1,0 +1,22 @@
+profile_profile_field_profile_nick_name: 0
+profile_profile_field_profile_address: 1
+profile_profile_field_profile_banner_image: 0
+profile_profile_field_profile_expertise: 1
+profile_profile_field_profile_first_name: 1
+profile_profile_field_profile_function: 1
+profile_profile_field_profile_image: 1
+profile_profile_field_profile_interests: 1
+profile_profile_field_profile_last_name: 1
+profile_profile_field_profile_organization: 1
+profile_profile_field_profile_organization_tag: 1
+profile_profile_field_profile_phone_number: 0
+profile_profile_field_profile_profile_tag: 0
+profile_profile_field_profile_self_introduction: 1
+profile_profile_field_profile_show_email: null
+profile_address_field_city: 1
+profile_address_field_address: 0
+profile_address_field_postalcode: 0
+nickname_unique_validation: 0
+_core:
+  default_config_hash: qxXJjRY_N3UlWCvkkNOk4OsVclvMGRVwfDikUfaGoHM
+profile_profile_field_profile_geolocation: 1

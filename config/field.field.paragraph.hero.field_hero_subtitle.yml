@@ -1,0 +1,21 @@
+uuid: 9e56ff7c-67df-41b8-80e9-57b2bae82085
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hero_subtitle
+    - paragraphs.paragraphs_type.hero
+_core:
+  default_config_hash: t-doc1y2sKZcQnDVsOka5dgNRoTIFvZmvOyF32QdjXY
+id: paragraph.hero.field_hero_subtitle
+field_name: field_hero_subtitle
+entity_type: paragraph
+bundle: hero
+label: Subtitle
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

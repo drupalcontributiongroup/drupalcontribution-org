@@ -1,0 +1,15 @@
+uuid: 3aff8205-787a-4c2d-b47d-0ad9a7b817a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.report_post
+  module:
+    - flag
+id: flag_action.report_post_flag
+label: 'Report as inappropriate'
+type: post
+plugin: 'flag_action:report_post_flag'
+configuration:
+  flag_id: report_post
+  flag_action: flag

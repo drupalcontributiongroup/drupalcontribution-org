@@ -1,0 +1,14 @@
+uuid: 2a223616-5aa4-41c0-be98-96906b03d4b8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2XD8aA_a3D_RPZSDCmXBv7ybtBkVH0HKZ3ZNoU0-huM
+id: group_content__closed_group-group_node-topic
+label: 'Group content: topic'
+tags:
+  title: '[current-page:title]'
+  og_description: '[node:body]'
+  og_image: '[node:field_topic_image:entity:url]'
+  og_site_name: '[site:name]'
+  og_title: '[current-page:title]'

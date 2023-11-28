@@ -1,0 +1,15 @@
+uuid: 7415de2a-d632-45e4-bb76-4342f0c9f02f
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+  enforced:
+    module:
+      - social_private_message
+_core:
+  default_config_hash: iuhrMzkLSMPc2jzBNgV46bUo5s0AHugdbchDlUQoxHA
+id: profile.compact_private_message
+label: 'Compact Private Message'
+targetEntityType: profile
+cache: true

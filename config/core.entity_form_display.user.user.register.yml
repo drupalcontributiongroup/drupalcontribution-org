@@ -1,0 +1,46 @@
+uuid: 569d7368-3075-4737-930e-19b49c83c7e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.user.register
+    - field.field.user.user.field_user_embed_content_consent
+  module:
+    - path
+    - user
+_core:
+  default_config_hash: q2q1Ylfh4nQOHKbKS9jCKipcNXijytSip0H1DBqyjNE
+id: user.user.register
+targetEntityType: user
+bundle: user
+mode: register
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  google_analytics:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  private_messages:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  contact: true
+  field_user_embed_content_consent: true
+  groups: true
+  langcode: true
+  language: true
+  profile_profiles: true
+  timezone: true

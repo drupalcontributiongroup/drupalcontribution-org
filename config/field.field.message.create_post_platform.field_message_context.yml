@@ -1,0 +1,23 @@
+uuid: 22659e68-6ca6-47c1-a2cb-67795389d306
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_context
+    - message.template.create_post_platform
+  module:
+    - options
+_core:
+  default_config_hash: WwLvxDYsXP1HLcMWOp3BiCG36wYt5QLX1EuxL7aJllY
+id: message.create_post_platform.field_message_context
+field_name: field_message_context
+entity_type: message
+bundle: create_post_platform
+label: Context
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

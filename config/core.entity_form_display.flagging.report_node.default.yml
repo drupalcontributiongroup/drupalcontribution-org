@@ -1,0 +1,35 @@
+uuid: 39eeccb9-cfa8-4def-a764-68368ee55a6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.flagging.report_node.field_other_reason
+    - field.field.flagging.report_node.field_reason
+    - field.field.flagging.report_node.field_status
+    - flag.flag.report_node
+  enforced:
+    module:
+      - social_content_report
+_core:
+  default_config_hash: kQ2AUPbMuPdPy1i_JLws1Y7UYmo3CdOaHGR0Vv_sd4k
+id: flagging.report_node.default
+targetEntityType: flagging
+bundle: report_node
+mode: default
+content:
+  field_other_reason:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_reason:
+    type: options_buttons
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_status: true

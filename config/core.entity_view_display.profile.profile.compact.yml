@@ -1,0 +1,68 @@
+uuid: 3733b5e6-fd71-4379-85d3-08524ed2a06f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.profile.compact
+    - field.field.profile.profile.field_profile_address
+    - field.field.profile.profile.field_profile_banner_image
+    - field.field.profile.profile.field_profile_expertise
+    - field.field.profile.profile.field_profile_first_name
+    - field.field.profile.profile.field_profile_function
+    - field.field.profile.profile.field_profile_geolocation
+    - field.field.profile.profile.field_profile_image
+    - field.field.profile.profile.field_profile_interests
+    - field.field.profile.profile.field_profile_last_name
+    - field.field.profile.profile.field_profile_nationality
+    - field.field.profile.profile.field_profile_nick_name
+    - field.field.profile.profile.field_profile_organization
+    - field.field.profile.profile.field_profile_organization_tag
+    - field.field.profile.profile.field_profile_phone_number
+    - field.field.profile.profile.field_profile_profile_tag
+    - field.field.profile.profile.field_profile_self_introduction
+    - field.field.profile.profile.field_profile_show_email
+    - field.field.profile.profile.field_profile_summary
+    - image.style.social_medium
+    - profile.type.profile
+  module:
+    - image
+    - lazy
+_core:
+  default_config_hash: 94SWj_W_yTpVrYYCebKtO05hwXk8BK6iACQR48paoZ8
+id: profile.profile.compact
+targetEntityType: profile
+bundle: profile
+mode: compact
+content:
+  field_profile_image:
+    type: social_profile_avatar
+    label: hidden
+    settings:
+      image_link: owner
+      image_style: social_medium
+    third_party_settings:
+      lazy:
+        lazy_image: '1'
+    weight: 0
+    region: content
+hidden:
+  field_profile_address: true
+  field_profile_banner_image: true
+  field_profile_expertise: true
+  field_profile_first_name: true
+  field_profile_function: true
+  field_profile_geolocation: true
+  field_profile_interests: true
+  field_profile_last_name: true
+  field_profile_nationality: true
+  field_profile_nick_name: true
+  field_profile_organization: true
+  field_profile_organization_tag: true
+  field_profile_phone_number: true
+  field_profile_profile_tag: true
+  field_profile_self_introduction: true
+  field_profile_show_email: true
+  field_profile_summary: true
+  private_message_link: true
+  search_api_excerpt: true
+  social_tagging: true

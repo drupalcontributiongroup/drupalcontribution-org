@@ -1,0 +1,21 @@
+uuid: fe0714e9-216e-4d04-b327-6617412f2ef5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_context
+    - message.template.event_request_approved
+  module:
+    - options
+id: message.event_request_approved.field_message_context
+field_name: field_message_context
+entity_type: message
+bundle: event_request_approved
+label: field_message_context
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

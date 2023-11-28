@@ -1,0 +1,17 @@
+uuid: 3617b37a-c8a7-4058-a595-cc5b1c79601a
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+  enforced:
+    config:
+      - user.role.contentmanager
+id: public_group-83776d798
+label: 'Content manager'
+weight: 100
+internal: true
+audience: outsider
+group_type: public_group
+permissions_ui: false
+permissions: {  }

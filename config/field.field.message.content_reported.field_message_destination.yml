@@ -1,0 +1,21 @@
+uuid: ed1c11c3-935c-430b-9e33-a4355a70045e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_destination
+    - message.template.content_reported
+  module:
+    - options
+id: message.content_reported.field_message_destination
+field_name: field_message_destination
+entity_type: message
+bundle: content_reported
+label: field_message_destination
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

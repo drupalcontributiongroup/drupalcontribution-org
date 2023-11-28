@@ -1,0 +1,46 @@
+uuid: 8211bc92-7972-4940-ab1a-e11188a679e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.flagging.report_comment.field_other_reason
+    - field.field.flagging.report_comment.field_reason
+    - field.field.flagging.report_comment.field_status
+    - flag.flag.report_comment
+  enforced:
+    module:
+      - social_content_report
+_core:
+  default_config_hash: eAAn6ODevkK90L03VHij8ZGy2GAQ2cAiCBgQDS3xC9Y
+id: flagging.report_comment.default
+targetEntityType: flagging
+bundle: report_comment
+mode: default
+content:
+  field_other_reason:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_reason:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_status:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

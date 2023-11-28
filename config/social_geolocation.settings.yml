@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: StMGXNISu9hj56CkC5sX3OJtyWV_QZk7DFjD6KjLYF8
+enabled: true
+geolocation_provider: nominatim
+unit_of_measurement: km

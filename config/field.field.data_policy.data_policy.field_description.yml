@@ -1,0 +1,23 @@
+uuid: f2091d7f-9b4b-43a2-b8cc-aa5049d0577c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.data_policy.field_description
+  module:
+    - data_policy
+    - text
+_core:
+  default_config_hash: etDOUOLp4it_3f0liOg2O-4fO0GemcasZ6-cZtYl9JQ
+id: data_policy.data_policy.field_description
+field_name: field_description
+entity_type: data_policy
+bundle: data_policy
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

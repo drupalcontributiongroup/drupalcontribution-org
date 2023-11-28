@@ -1,0 +1,28 @@
+uuid: 5fb18bf7-e57f-4363-854d-ec0719b9dc79
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_core
+    - system
+  theme:
+    - socialbase
+_core:
+  default_config_hash: GcB0WFe6ywExTorcqdVVuQzOa9wCIo9Tg_joGYBu1FE
+id: data_policy_page_title_block
+theme: socialbase
+region: hero
+weight: 0
+provider: null
+plugin: social_page_title_block
+settings:
+  id: social_page_title_block
+  label: 'Page title for Data policy'
+  label_display: '0'
+  provider: social_core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/data-policy\r\n/data-policy/*"

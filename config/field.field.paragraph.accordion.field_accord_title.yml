@@ -1,0 +1,21 @@
+uuid: 41cfb0c1-9990-45e4-a9a0-b6ca3e944d29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_accord_title
+    - paragraphs.paragraphs_type.accordion
+_core:
+  default_config_hash: ih7bOC26S0vjrVewztzNiNm_zR_p3nYwtLnyS4EdGE8
+id: paragraph.accordion.field_accord_title
+field_name: field_accord_title
+entity_type: paragraph
+bundle: accordion
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

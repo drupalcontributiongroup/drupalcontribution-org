@@ -1,0 +1,17 @@
+uuid: d74270e4-9eb6-4640-a7c5-a2beb5837cbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.open_group
+  enforced:
+    config:
+      - user.role.sitemanager
+id: open_group-ba5854c29
+label: 'Site manager'
+weight: 110
+internal: true
+audience: outsider
+group_type: open_group
+permissions_ui: false
+permissions: {  }

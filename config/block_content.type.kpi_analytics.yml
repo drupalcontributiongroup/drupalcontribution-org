@@ -1,0 +1,10 @@
+uuid: 45305103-d4c3-4bd3-9b05-352f0e882c0d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: P8H9tZE4yIdg0aJwYqTCcZvZ4vfMQO8istnTcOCckOI
+id: kpi_analytics
+label: 'KPI Analytics block'
+revision: 0
+description: 'Block type to create KPI blocks for analytics. Combines multiple plugins (datasource, data formatter and visualization)'

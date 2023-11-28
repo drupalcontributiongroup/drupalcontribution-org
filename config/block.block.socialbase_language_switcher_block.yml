@@ -1,0 +1,22 @@
+uuid: faf1a07e-ca65-4ccd-a306-f835b8f1b45d
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_language
+  theme:
+    - socialbase
+_core:
+  default_config_hash: V1C5BwekkscY9cPpKSHdVJby0ueL4zxxtDXdxd5jVhs
+id: socialbase_language_switcher_block
+theme: socialbase
+region: header
+weight: -22
+provider: null
+plugin: language_switcher_block
+settings:
+  id: language_switcher_block
+  label: 'Language switcher block'
+  label_display: '0'
+  provider: social_language
+visibility: {  }

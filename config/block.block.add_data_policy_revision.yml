@@ -1,0 +1,28 @@
+uuid: a27e9f38-a0ab-47e8-bf57-04570886d876
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_gdpr
+    - system
+  theme:
+    - socialbase
+_core:
+  default_config_hash: 0K5F7a97czjOx8bg_hM5qXwEx7UeSPNrNo6ar58bVUk
+id: add_data_policy_revision
+theme: socialbase
+region: complementary_top
+weight: -27
+provider: null
+plugin: add_data_policy_revision
+settings:
+  id: add_data_policy_revision
+  label: 'Add Data Policy Revision'
+  label_display: '0'
+  provider: social_gdpr
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /data-policy/revisions

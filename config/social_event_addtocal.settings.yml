@@ -1,0 +1,6 @@
+enable_add_to_calendar: 1
+allowed_calendars:
+  google: google
+  ical: ical
+  outlook: outlook
+  yahoo: yahoo

@@ -1,0 +1,19 @@
+_core:
+  default_config_hash: NO2xkUEhq_WAhBUrdnuQ9yHbgq_AS0tM8wR5dI0tYoM
+allow_group_create: true
+allow_group_selection_in_node: false
+address_visibility_settings: false
+social_group_type_required: false
+group_invite:
+  invite_subject: '[current-user:display-name] has invited you to join a group on [site:name].'
+  invite_message: "Hi,<br /><br /> I would like to invite you to join my group [group:title] on [site:name].<br /><br />Kind regards,<br />[current-user:display-name]<br /><br />\r\n<table class=\"btn-wrapp\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"align-center\"><a class=\"btn-link btn-link-bg btn-link-one\" href=\"[group_content:register_link]\">View group</a></td>\r\n\t\t\t<td class=\"align-center\"><a class=\"btn-link btn-link-bg btn-link-one\" href=\"[site:url]\">About [site:name]</a></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>"
+  email_verification: 0
+default_hero: null
+disallow_lu_create_groups_public_group: false
+disallow_lu_create_groups_open_group: open_group
+disallow_lu_create_groups_flexible_group: flexible_group
+disallow_lu_create_groups_closed_group: closed_group
+disallow_lu_create_groups_secret_group: secret_group
+cross_posting:
+  status: false
+  content_types: {  }

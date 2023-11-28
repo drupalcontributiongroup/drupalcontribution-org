@@ -1,0 +1,21 @@
+uuid: 69dcff37-27bb-4efa-a4e2-ef7a2d8a37b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.kpi_analytics
+    - field.storage.block_content.field_kpi_chart_colors
+_core:
+  default_config_hash: DVNCCGHIVkkD8VRdkDhnmPyFvgbK3vA8FXjj-d3SDdU
+id: block_content.kpi_analytics.field_kpi_chart_colors
+field_name: field_kpi_chart_colors
+entity_type: block_content
+bundle: kpi_analytics
+label: 'KPI Chart colors'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

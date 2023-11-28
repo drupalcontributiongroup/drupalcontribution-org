@@ -1,0 +1,71 @@
+uuid: 168f2657-60e7-49bb-8fc5-a1c01b61815b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.event_enrollment.event_enrollment.field_account
+    - field.field.event_enrollment.event_enrollment.field_email
+    - field.field.event_enrollment.event_enrollment.field_enrollment_status
+    - field.field.event_enrollment.event_enrollment.field_event
+    - field.field.event_enrollment.event_enrollment.field_first_name
+    - field.field.event_enrollment.event_enrollment.field_last_name
+    - field.field.event_enrollment.event_enrollment.field_request_message
+    - field.field.event_enrollment.event_enrollment.field_request_or_invite_status
+    - field.field.event_enrollment.event_enrollment.field_token
+  module:
+    - social_event
+_core:
+  default_config_hash: suCx7QaD0rD4sqRZeuBpKqaUGBPYd5eCliivc1cYZtk
+id: event_enrollment.event_enrollment.default
+targetEntityType: event_enrollment
+bundle: event_enrollment
+mode: default
+content:
+  field_enrollment_status:
+    type: options_select
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_event:
+    type: entity_reference_autocomplete
+    weight: 11
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_account: true
+  field_email: true
+  field_first_name: true
+  field_last_name: true
+  field_request_message: true
+  field_request_or_invite_status: true
+  field_token: true

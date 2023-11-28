@@ -1,0 +1,45 @@
+uuid: 3ef5d35a-a732-44a6-9e91-caa8ceeafffd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.featured_items.field_featured_items_description
+    - field.field.paragraph.featured_items.field_featured_items_items
+    - field.field.paragraph.featured_items.field_featured_items_title
+    - paragraphs.paragraphs_type.featured_items
+  module:
+    - entity_reference_revisions
+    - text
+_core:
+  default_config_hash: Fkp6RBPddG7wp3n4TGHLcu-CS7A3yj1AXSWRcxTy3Ck
+id: paragraph.featured_items.default
+targetEntityType: paragraph
+bundle: featured_items
+mode: default
+content:
+  field_featured_items_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_featured_items_items:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_featured_items_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

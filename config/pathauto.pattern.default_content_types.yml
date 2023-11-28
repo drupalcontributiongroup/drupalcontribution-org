@@ -1,0 +1,16 @@
+uuid: 3942e09b-d6be-47f1-a1a3-43209aad75ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: PK7Qj6SX9H1zsXXgZohHLkz3742OiqdUHdUZ3kO7_i8
+id: default_content_types
+label: 'default content types'
+type: 'canonical_entities:node'
+pattern: '[node:group:url:path]/[node:content-type]/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: -8
+relationships: {  }

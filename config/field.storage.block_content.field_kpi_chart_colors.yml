@@ -1,0 +1,23 @@
+uuid: a6d2dc5f-72a7-485c-9ed2-7a76a295f3db
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: RgS3PXpiMf1VzglmsPI2_HbpfHjDNpsxr-Oy1EKVvg8
+id: block_content.field_kpi_chart_colors
+field_name: field_kpi_chart_colors
+entity_type: block_content
+type: string
+settings:
+  max_length: 7
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

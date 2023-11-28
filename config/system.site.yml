@@ -1,14 +1,16 @@
 _core:
-  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
 langcode: en
-uuid: f9122d7c-bd4b-4cdb-8ee5-26b7caef1b26
-name: 'D9 Test'
-mail: test@drupalcontribution.org
+uuid: 16e635c2-91ec-4326-8a7b-5f7db3163f7d
+name: 'Drupal Contribution'
+mail: noreply@getopensocial.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/94
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
+mail_notification: ''
+show_mail_in_messages: 0

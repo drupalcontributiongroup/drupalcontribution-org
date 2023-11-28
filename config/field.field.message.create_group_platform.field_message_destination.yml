@@ -1,0 +1,23 @@
+uuid: 0ad2915a-47cc-475f-97ab-179abd7ce216
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_destination
+    - message.template.create_group_platform
+  module:
+    - options
+_core:
+  default_config_hash: CKo0x6S1LjZmU8S72shSSeEmWHi9vaPABZdXD7P-BD8
+id: message.create_group_platform.field_message_destination
+field_name: field_message_destination
+entity_type: message
+bundle: create_group_platform
+label: Destinations
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

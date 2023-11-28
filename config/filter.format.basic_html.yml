@@ -1,11 +1,11 @@
-uuid: ed622865-a155-4a4c-a1ba-68fa309e6826
+uuid: 956606c2-ef7f-4cfb-9eac-4ac2388b6370
 langcode: en
 status: true
 dependencies:
   module:
     - editor
 _core:
-  default_config_hash: RjoJPQLCAE8u1Ys_yCKubpkYlRz_Oy12a5qCVeNIHJ8
+  default_config_hash: V5CiOb0vkn7ImVCvYdECetfLxjaBFvPtIvukgpY_NuY
 name: 'Basic HTML'
 format: basic_html
 weight: 0
@@ -16,7 +16,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<br> <p> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <cite> <dl> <dt> <dd> <a hreflang href> <blockquote cite> <ul type> <ol start type> <strong> <em> <code> <li> <img src alt data-entity-uuid data-entity-type height width data-caption data-align>'
+      allowed_html: '<a href hreflang title id target rel class=""> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p> <br> <span> <img src alt height width data-entity-type data-entity-uuid data-align data-caption> <mention id> <table style cellspacing cellpadding border> <caption> <tbody> <thead> <tfoot> <th scope> <td> <tr>'
       filter_html_help: false
       filter_html_nofollow: false
   filter_align:
@@ -43,3 +43,20 @@ filters:
     status: true
     weight: 11
     settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  lazy_filter:
+    settings:
+      image: ''
+      iframe: ''

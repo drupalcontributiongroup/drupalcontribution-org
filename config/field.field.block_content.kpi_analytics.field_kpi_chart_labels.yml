@@ -1,0 +1,21 @@
+uuid: a5206fd4-1aa6-4ea9-a753-1fc3782de0c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.kpi_analytics
+    - field.storage.block_content.field_kpi_chart_labels
+_core:
+  default_config_hash: V_HCgOjRJZltkb2NFoaNRKkORs90xVMg5Ci1KNrodbs
+id: block_content.kpi_analytics.field_kpi_chart_labels
+field_name: field_kpi_chart_labels
+entity_type: block_content
+bundle: kpi_analytics
+label: 'KPI Chart labels'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

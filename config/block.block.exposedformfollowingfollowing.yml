@@ -1,0 +1,31 @@
+uuid: 96173d62-b98d-4d53-a222-2500e522e2fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.following
+  module:
+    - system
+    - views
+  theme:
+    - socialblue
+_core:
+  default_config_hash: E1e2ChYjW2belIX2h1-Y7iAKgGV_ExQNS-PXvmrq5bk
+id: exposedformfollowingfollowing
+theme: socialblue
+region: complementary_top
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:following-following'
+settings:
+  id: 'views_exposed_filter_block:following-following'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: Filter
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /following

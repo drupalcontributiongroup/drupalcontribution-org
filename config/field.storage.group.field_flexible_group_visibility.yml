@@ -1,0 +1,30 @@
+uuid: 0e9ecaa1-1eef-4a8b-8827-f1abaea8b228
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+    - options
+id: group.field_flexible_group_visibility
+field_name: field_flexible_group_visibility
+entity_type: group
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: public
+      label: Public
+    -
+      value: community
+      label: Community
+    -
+      value: members
+      label: 'Group members only (secret)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

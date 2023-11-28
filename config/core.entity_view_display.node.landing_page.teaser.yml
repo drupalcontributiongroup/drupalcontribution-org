@@ -1,0 +1,79 @@
+uuid: 3cb1cbff-01c4-4c8c-8380-4b7fb70bf49f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.landing_page.field_content_visibility
+    - field.field.node.landing_page.field_landing_page_section
+    - node.type.landing_page
+  module:
+    - user
+_core:
+  default_config_hash: gtv1Npbpzr6oKcXQFYd9THzeJ9-Yfb4oh_JEjoPLLXs
+id: node.landing_page.teaser
+targetEntityType: node
+bundle: landing_page
+mode: teaser
+content:
+  flag_follow_content:
+    weight: 10
+    region: content
+  groups:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  groups_type_closed_group:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  groups_type_flexible_group:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  groups_type_open_group:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  groups_type_public_group:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  groups_type_secret_group:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_content_visibility: true
+  field_landing_page_section: true
+  langcode: true
+  private_message_link: true
+  search_api_excerpt: true
+  social_tagging: true

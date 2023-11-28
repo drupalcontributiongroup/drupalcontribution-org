@@ -1,0 +1,32 @@
+uuid: 95ecbb2b-d960-435b-8d16-f22603064d19
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:kpi_analytics:04538321-c195-4327-bae0-e82365382836'
+  module:
+    - block_content
+    - system
+  theme:
+    - socialblue
+id: social_kpi_lite_events_created
+theme: socialblue
+region: sidebar_first
+weight: -50
+provider: null
+plugin: 'block_content:04538321-c195-4327-bae0-e82365382836'
+settings:
+  id: social_kpi_lite_events_created
+  label: 'Events created'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /admin/reports/social-kpi

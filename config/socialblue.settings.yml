@@ -1,0 +1,99 @@
+_core:
+  default_config_hash: 7dOfox0d3zjP6W7MhaClxvumsfVm2LpgQDnlOHvO5c8
+favicon:
+  mimetype: image/png
+  path: 'public://DCNA2021_Vertical_0.png'
+  url: 'https://northamerica2021.opensocial.site/sites/default/files/DCNA2021_Vertical_0.png'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: false
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://DCNA2021_Vertical.png'
+  url: ''
+  use_default: false
+font_primary: '1'
+card_radius: '0'
+hero_gradient_opacity: 70
+form_control_radius: '5'
+button_radius: '5'
+color_primary: '#29abe2'
+color_secondary: '#1f80aa'
+color_accent: '#ffc142'
+color_accent_text: '#4d4d4d'
+color_link: '#33b5e5'
+color_navbar_bg: '#333333'
+color_navbar_text: '#ffffff'
+'color_navbar_active_bg''': '#1f1f1f'
+'color_navbar_active_text''': '#f3f3f3'
+'color_navbar_sec_bg''': '#1f7ea7'
+'color_navbar_sec_text''': '#f9f9f9'
+content_entity_form_style: open_social
+schemas:
+  bootstrap: 8000
+  socialbase: 8000
+  socialblue: 8000
+table_responsive: null
+cdn_theme: ''
+cdn_cache_ttl_versions: 0
+cdn_cache_ttl_themes: 0
+cdn_cache_ttl_assets: 0
+cdn_cache_ttl_library: 0
+reset_http_request_cache: ''
+table: ''
+email_logo: {  }
+style: sky
+button_colorize: null
+button_iconize: null
+button_size: null
+fluid_container: null
+forms_has_error_value_toggle: null
+forms_required_has_error: null
+forms_smart_descriptions: null
+forms_smart_descriptions_allowed_tags: null
+forms_smart_descriptions_limit: null
+image_responsive: null
+image_shape: null
+table_bordered: null
+table_condensed: null
+table_hover: null
+table_striped: null
+breadcrumb: null
+breadcrumb_home: null
+breadcrumb_title: null
+navbar_inverse: null
+navbar_position: null
+modal_enabled: null
+modal_jquery_ui_bridge: null
+modal_animation: null
+modal_backdrop: null
+modal_focus_input: null
+modal_keyboard: null
+modal_select_text: null
+modal_show: null
+modal_size: null
+popover_enabled: 1
+popover_animation: 1
+popover_auto_close: 1
+popover_container: body
+popover_content: null
+popover_delay: null
+popover_html: null
+popover_placement: right
+popover_selector: null
+popover_title: null
+popover_trigger: hover
+tooltip_enabled: null
+tooltip_animation: null
+tooltip_container: null
+tooltip_delay: null
+tooltip_html: null
+tooltip_placement: null
+tooltip_selector: null
+tooltip_trigger: null
+include_deprecated: null
+suppress_deprecated_warnings: null
+os_style_settings: ''
+region_wells: {  }

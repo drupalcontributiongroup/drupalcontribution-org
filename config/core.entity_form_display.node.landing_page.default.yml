@@ -1,0 +1,142 @@
+uuid: 1c4542e5-c82a-4bc5-a77b-c4f2ce4c2c48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.field_content_visibility
+    - field.field.node.landing_page.field_landing_page_section
+    - node.type.landing_page
+  module:
+    - field_group
+    - paragraphs
+    - path
+third_party_settings:
+  field_group:
+    group_content:
+      children:
+        - title
+        - field_content_visibility
+      label: Title
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        label: Title
+        classes: card
+        id: title
+        description: ''
+        required_fields: true
+    group_sections:
+      children:
+        - field_landing_page_section
+      label: Sections
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        label: Sections
+        classes: card
+        id: sections
+        description: ''
+        required_fields: true
+    group_settings:
+      children:
+        - uid
+        - created
+        - path
+        - status
+      label: Settings
+      region: hidden
+      parent_name: ''
+      weight: 20
+      format_type: details
+      format_settings:
+        classes: social-collapsible-fieldset
+        id: ''
+        open: false
+        description: ''
+        required_fields: true
+_core:
+  default_config_hash: ZmNvrc200HUdqH2M5CVzebvr-UKPAQWa7mq4XhhrYNU
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_content_visibility:
+    type: options_buttons
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_landing_page_section:
+    type: entity_reference_paragraphs
+    weight: 2
+    region: content
+    settings:
+      title: Section
+      title_plural: Sections
+      edit_mode: preview
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  social_tagging:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  groups: true
+  promote: true
+  sticky: true

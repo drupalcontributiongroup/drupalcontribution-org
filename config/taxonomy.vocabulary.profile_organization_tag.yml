@@ -1,0 +1,13 @@
+uuid: 2b4f7486-75bd-4ccb-a9f7-6d11a2140b54
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - social_profile_organization_tag
+_core:
+  default_config_hash: F9yQJD5PPT8MPbmFTG9vR0yLPEdzEv3In7Pp3HWDOQs
+name: 'Profile organization tag'
+vid: profile_organization_tag
+description: 'CM can tag a user and indicate that user is part of an organization.'
+weight: 0

@@ -1,0 +1,11 @@
+uuid: 50406dca-af04-4050-9a35-f7fdfbb9f7d3
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - social_profile_fields
+name: Nationality
+vid: nationality
+description: Nationalities
+weight: 0

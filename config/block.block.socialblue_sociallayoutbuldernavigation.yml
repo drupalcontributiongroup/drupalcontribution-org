@@ -1,0 +1,23 @@
+uuid: ec15f556-8677-4f77-9bb8-da7ee79364f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_layout_builder
+  theme:
+    - socialblue
+_core:
+  default_config_hash: O1QQ3exs9PGzxGFi5ZRn9C3kPRwVPGOCJwUrqtFjv5Y
+id: socialblue_sociallayoutbuldernavigation
+theme: socialblue
+region: title
+weight: 0
+provider: null
+plugin: social_layout_builder_navigation_block
+settings:
+  id: social_layout_builder_navigation_block
+  label: 'Social Layout Builder Navigation'
+  label_display: '0'
+  provider: social_layout_builder
+  context_mapping: {  }
+visibility: {  }

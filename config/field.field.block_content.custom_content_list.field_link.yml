@@ -1,0 +1,25 @@
+uuid: 115228d5-1559-4f38-b06c-7b33d3a24cfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_content_list
+    - field.storage.block_content.field_link
+  module:
+    - link
+_core:
+  default_config_hash: hJ3Ew6xKlQj93TToNfCRP7xK76qMr3UtS86azRwBgug
+id: block_content.custom_content_list.field_link
+field_name: field_link
+entity_type: block_content
+bundle: custom_content_list
+label: 'Read more link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 1
+field_type: link

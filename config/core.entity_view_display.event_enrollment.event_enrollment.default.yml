@@ -1,0 +1,64 @@
+uuid: 14439ea5-de9e-42a4-88a1-9ab9fef2dc6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.event_enrollment.event_enrollment.field_account
+    - field.field.event_enrollment.event_enrollment.field_email
+    - field.field.event_enrollment.event_enrollment.field_enrollment_status
+    - field.field.event_enrollment.event_enrollment.field_event
+    - field.field.event_enrollment.event_enrollment.field_first_name
+    - field.field.event_enrollment.event_enrollment.field_last_name
+    - field.field.event_enrollment.event_enrollment.field_request_message
+    - field.field.event_enrollment.event_enrollment.field_request_or_invite_status
+    - field.field.event_enrollment.event_enrollment.field_token
+  module:
+    - options
+    - social_event
+    - user
+_core:
+  default_config_hash: JSQZYiPPCG2AT5eg8XgQ7gQLlL16nIQxRrIjptKLEPM
+id: event_enrollment.event_enrollment.default
+targetEntityType: event_enrollment
+bundle: event_enrollment
+mode: default
+content:
+  field_enrollment_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_event:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  user_id:
+    type: author
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_account: true
+  field_email: true
+  field_first_name: true
+  field_last_name: true
+  field_request_message: true
+  field_request_or_invite_status: true
+  field_token: true
+  search_api_excerpt: true

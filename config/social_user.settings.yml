@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: zsoYpjDulVBs5NgSouB-lAdq6iwr6EqrQRnL0GTc6jU
+langcode: en
+signup_help: "Thank you for joining! A welcome message with further instructions will be sent to your email address after you successfully enter your email address and a username.\r\n\r\nRemember: The <a href=\"https://events.drupal.org/code-conduct\">DrupalCon Code of Conduct</a> applies during all contribution events run on this platform."
+login_help: 'Remember: The <a href="https://events.drupal.org/code-conduct">DrupalCon Code of Conduct</a> applies during all contribution events run on this platform.'
+verified_immediately: true
+social_user_profile_landingpage: view.user_information.user_information

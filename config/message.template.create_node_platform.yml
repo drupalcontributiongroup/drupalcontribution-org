@@ -1,0 +1,41 @@
+uuid: ce63c0d7-0bdb-486d-ac20-ab1e4b74537d
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_logger
+third_party_settings:
+  activity_logger:
+    activity_bundle_entities:
+      node-event: node-event
+      node-topic: node-topic
+    activity_action: create_entitiy_action
+    activity_context: platform_activity_context
+    activity_destinations:
+      platform_email: platform_email
+    activity_create_direct: false
+    email_subject: ''
+_core:
+  default_config_hash: n8mJdkcNmJsENgfVPfiuH8BXRa8DGGB1lC4KjVwNvCI
+template: create_node_platform
+label: 'New node in the platform'
+description: 'A new content (topic or event) created in the platform'
+text:
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> created new content <a href="[message:field_message_related_object:entity:url:absolute]">[message:node-title]</a> in the platform</p>'
+    format: full_html
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> created new content <a href="[message:field_message_related_object:entity:url:absolute]">[message:node-title]</a> in the platform</p>'
+    format: full_html
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> created new content <a href="[message:field_message_related_object:entity:url:absolute]">[message:node-title]</a> in the platform</p>'
+    format: full_html
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge:
+    override: false
+    enabled: false
+    quota: null
+    days: null

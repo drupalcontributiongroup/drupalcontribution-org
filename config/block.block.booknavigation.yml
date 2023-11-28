@@ -1,0 +1,31 @@
+uuid: 483e965d-a8d1-4208-ae16-95ab40eefaba
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+    - node
+  theme:
+    - socialbase
+_core:
+  default_config_hash: bUzoI2dzh2G11mRMDLm-GWaOg5HJTL4-EuB11I1pqrU
+id: booknavigation
+theme: socialbase
+region: complementary_top
+weight: null
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Table of contents'
+  label_display: visible
+  provider: book
+  block_mode: 'book pages'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      book: book

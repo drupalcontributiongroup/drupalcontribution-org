@@ -1,0 +1,24 @@
+uuid: 8cadce62-db79-427a-9e60-d05ececa54c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - geolocation
+    - group
+  enforced:
+    module:
+      - social_geolocation
+_core:
+  default_config_hash: vfy4_QuFEYvO9IJ-Ol2SWdrMwhj0SmeKI142MLXQox0
+id: group.field_group_geolocation
+field_name: field_group_geolocation
+entity_type: group
+type: geolocation
+settings: {  }
+module: geolocation
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

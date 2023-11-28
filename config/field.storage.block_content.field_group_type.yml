@@ -1,0 +1,22 @@
+uuid: 24cbcf0a-9c87-4d31-a51e-6c6c887a803f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - group
+_core:
+  default_config_hash: hmRkDLEja-AfQfm_wDNmZQbS-xs63umxDPC4MqSvZ6Q
+id: block_content.field_group_type
+field_name: field_group_type
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: group_type
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

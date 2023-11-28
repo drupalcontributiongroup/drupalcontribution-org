@@ -1,32 +1,45 @@
-uuid: 46f02579-17a2-4cd4-84bf-176a919a912f
+uuid: 62305024-27ee-4d49-a5a6-0b6b0b9db1f0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.user_picture
-    - image.style.thumbnail
+    - field.field.user.user.field_user_embed_content_consent
   module:
-    - image
     - user
 _core:
-  default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
+  default_config_hash: c23cLvgm2S6S2e0bZFAhEzEx9xDdsEycGOiAUCZhJ9E
 id: user.user.default
 targetEntityType: user
 bundle: user
 mode: default
 content:
-  member_for:
-    weight: 5
-    region: content
-  user_picture:
-    type: image
-    label: hidden
+  groups_type_flexible_group:
+    type: entity_reference_label
+    label: above
     settings:
-      image_style: thumbnail
-      image_link: content
-      image_loading:
-        attribute: lazy
+      link: true
     third_party_settings: {  }
-    weight: 0
+    weight: -5
     region: content
-hidden: {  }
+  groups_type_secret_group:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  field_user_embed_content_consent: true
+  groups: true
+  groups_type_closed_group: true
+  groups_type_open_group: true
+  groups_type_public_group: true
+  langcode: true
+  linked_username: true
+  member_for: true
+  private_message_link: true
+  profile_main: true
+  profile_profile: true
+  profile_profiles: true
+  search_api_excerpt: true

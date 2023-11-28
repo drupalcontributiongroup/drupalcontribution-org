@@ -1,0 +1,23 @@
+uuid: 705408b8-8a93-4a42-8f5e-5d02ed51cb0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: BIOIR7YSG73nvlVrqvzIr9f_u8FrFXN2qsczt5p0v0E
+id: block_content.field_kpi_chart_labels
+field_name: field_kpi_chart_labels
+entity_type: block_content
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

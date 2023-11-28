@@ -1,0 +1,13 @@
+uuid: 613a16e5-4514-434f-85f4-935254a7f9f5
+langcode: en
+status: false
+dependencies: {  }
+id: sign_up
+label: 'Sign up'
+page: /user/register
+summary:
+  value: 'Summarise what data is collected.'
+  format: basic_html
+body:
+  value: 'Describe in detail what data is collected and how it is used.'
+  format: basic_html

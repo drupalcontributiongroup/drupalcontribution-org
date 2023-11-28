@@ -1,0 +1,10 @@
+uuid: 2919be58-0b81-4fff-85b1-3cde0f8403d0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jn1bM6wXVgDDfkkY8GSngz1QGauZc9VXr5OHRB_Mers
+id: custom_content_list
+label: 'Custom content list block'
+revision: 0
+description: 'A custom block to generate a list of content dynamically according to specific filters.'

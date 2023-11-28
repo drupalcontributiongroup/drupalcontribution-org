@@ -1,0 +1,69 @@
+uuid: 6d30e0d6-a8d0-44e4-8a3d-862a31b2ab64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_small.field_hero_small_buttons
+    - field.field.paragraph.hero_small.field_hero_small_image
+    - field.field.paragraph.hero_small.field_hero_small_subtitle
+    - field.field.paragraph.hero_small.field_hero_small_title
+    - image.style.medium
+    - paragraphs.paragraphs_type.hero_small
+  module:
+    - image_widget_crop
+    - paragraphs
+_core:
+  default_config_hash: gyIJJAmyxs-uES1HWnQxCKhmyAo9YXbZs_orTP0i3fg
+id: paragraph.hero_small.default
+targetEntityType: paragraph
+bundle: hero_small
+mode: default
+content:
+  field_hero_small_buttons:
+    type: paragraphs
+    weight: 5
+    region: content
+    settings:
+      title: Button
+      title_plural: Buttons
+      edit_mode: closed
+      closed_mode: preview
+      autocollapse: all
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: button
+    third_party_settings: {  }
+  field_hero_small_image:
+    type: image_widget_crop
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: medium
+      crop_preview_image_style: crop_thumbnail
+      crop_list:
+        - hero_small_landing
+      warn_multiple_usages: true
+      show_crop_area: false
+      show_default_crop: true
+    third_party_settings: {  }
+  field_hero_small_subtitle:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hero_small_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

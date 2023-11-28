@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: n_qpss6W5gVA3e38uErsrMTfKQDnBNhmW2U9qPl9b5w
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: themes/contrib/socialblue/favicon.ico
+  use_default: false
+preset_accent_color: custom
+preset_focus_color: custom
+enable_darkmode: ''
+classic_toolbar: vertical
+accent_color: '#0B557B'
+focus_color: '#424242'
+icon_default: true
+icon_path: ''
+secondary_toolbar_frontend: false

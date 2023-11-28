@@ -1,0 +1,30 @@
+uuid: d831fee6-6379-4917-b47d-aea847d9949e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_managers
+    - node.type.event
+_core:
+  default_config_hash: ABMpnykPmNHC-g14xz2siFhaRNvMaEd5qNrQxmPblkQ
+id: node.event.field_event_managers
+field_name: field_event_managers
+entity_type: node
+bundle: event
+label: Organizers
+description: 'Assign event organisers to this event.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: false
+field_type: entity_reference

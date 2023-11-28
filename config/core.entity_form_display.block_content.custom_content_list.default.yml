@@ -1,0 +1,274 @@
+uuid: d9e9efa3-d86c-4484-b84b-24497ee65086
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_content_list
+    - field.field.block_content.custom_content_list.field_content_tags
+    - field.field.block_content.custom_content_list.field_duration
+    - field.field.block_content.custom_content_list.field_event_content_tag
+    - field.field.block_content.custom_content_list.field_event_date
+    - field.field.block_content.custom_content_list.field_event_group
+    - field.field.block_content.custom_content_list.field_event_type
+    - field.field.block_content.custom_content_list.field_group
+    - field.field.block_content.custom_content_list.field_group_content_tag
+    - field.field.block_content.custom_content_list.field_group_type
+    - field.field.block_content.custom_content_list.field_item_amount
+    - field.field.block_content.custom_content_list.field_link
+    - field.field.block_content.custom_content_list.field_plugin_field
+    - field.field.block_content.custom_content_list.field_plugin_id
+    - field.field.block_content.custom_content_list.field_sorting
+    - field.field.block_content.custom_content_list.field_subtitle
+    - field.field.block_content.custom_content_list.field_topic_type
+  module:
+    - field_group
+    - link
+    - social_content_block
+third_party_settings:
+  field_group:
+    group_display_options:
+      children:
+        - field_sorting
+        - field_sorting
+        - field_duration
+      label: Sorting
+      region: content
+      parent_name: ''
+      weight: 11
+      format_type: fieldset
+      format_settings:
+        label: Sorting
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+    group_filter_options:
+      children:
+        - field_plugin_id
+        - field_plugin_field
+        - field_item_amount
+        - field_group
+        - field_topic_type
+        - field_content_tags
+        - field_group
+        - field_event_group
+        - field_topic_type
+        - field_content_tags
+        - field_group
+        - field_event_type
+        - field_event_content_tag
+        - field_event_group
+        - field_event_date
+        - field_group_type
+        - field_topic_type
+        - field_content_tags
+        - field_group
+        - field_event_type
+        - field_event_content_tag
+        - field_event_group
+        - field_event_date
+        - field_group_type
+        - field_group_content_tag
+        - field_topic_type
+        - field_content_tags
+        - field_group
+        - field_event_type
+        - field_event_content_tag
+        - field_event_group
+        - field_event_date
+        - field_group_type
+        - field_group_content_tag
+      label: Content
+      region: content
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      format_settings:
+        label: Content
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+    group_information:
+      children:
+        - info
+        - field_subtitle
+      label: Information
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+_core:
+  default_config_hash: Dc-HDCbHzPlOw_PWlscij_7b2dRCV-f24Np2RPLzt8k
+id: block_content.custom_content_list.default
+targetEntityType: block_content
+bundle: custom_content_list
+mode: default
+content:
+  field_content_tags:
+    type: entity_reference_autocomplete_tags
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_event_content_tag:
+    type: entity_reference_autocomplete_tags
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_event_date:
+    type: entity_reference_autocomplete_tags
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_event_group:
+    type: entity_reference_autocomplete_tags
+    weight: 8
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_event_type:
+    type: entity_reference_autocomplete_tags
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_group:
+    type: entity_reference_autocomplete_tags
+    weight: 8
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_group_content_tag:
+    type: entity_reference_autocomplete_tags
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_group_type:
+    type: entity_reference_autocomplete_tags
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_item_amount:
+    type: number
+    weight: 10
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 13
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_plugin_field:
+    type: content_block_plugin_field
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_plugin_id:
+    type: content_block_plugin_id
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_sorting:
+    type: content_block_sorting
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_subtitle:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_topic_type:
+    type: entity_reference_autocomplete_tags
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  field_duration:
+    type: number
+    weight: 13
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_content_tags: true
+  field_duration: true
+  field_event_content_tag: true
+  field_event_date: true
+  field_event_type: true
+  field_group: true
+  field_group_content_tag: true
+  field_topic_type: true

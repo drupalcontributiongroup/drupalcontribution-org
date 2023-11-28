@@ -1,49 +1,232 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
-  automated_cron: 0
+  field_group: -1
+  activity_basics: 0
+  activity_creator: 0
+  activity_logger: 0
+  activity_send: 0
+  activity_send_email: 0
+  activity_send_push: 0
+  activity_send_push_notification: 0
+  activity_viewer: 0
+  address: 0
+  admin_toolbar: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
+  advancedqueue: 0
+  ajax_comments: 0
+  alternative_frontpage: 0
+  better_exposed_filters: 0
   big_pipe: 0
   block: 0
   block_content: 0
+  block_field: 0
+  book: 0
   breakpoint: 0
-  ckeditor5: 0
+  ckeditor: 0
+  color: 0
   comment: 0
   config: 0
-  contact: 0
+  config_modify: 0
+  config_translation: 0
+  config_update: 0
   contextual: 0
+  crop: 0
+  csv_serialization: 0
+  ctools: 0
+  data_policy: 0
   datetime: 0
-  dblog: 0
+  disable_user_1_edit: 0
+  dropdown: 0
+  dynamic_entity_reference: 0
   dynamic_page_cache: 0
   editor: 0
+  editor_advanced_link: 0
+  embed: 0
+  entity: 0
+  entity_access_by_field: 0
+  entity_reference_revisions: 0
+  exif_orientation: 0
   field: 0
   field_ui: 0
   file: 0
+  file_mdm: 0
+  file_mdm_exif: 0
+  file_mdm_font: 0
   filter: 0
-  help: 0
+  flag: 0
+  geolocation: 0
+  geolocation_address: 0
+  geolocation_leaflet: 0
+  gin_toolbar: 0
+  ginvite: 0
+  gnode: 0
+  google_analytics: 0
+  grequest: 0
+  group: 0
+  group_core_comments: 0
+  gvbo: 0
   history: 0
   image: 0
+  image_effects: 0
+  image_widget_crop: 0
+  inline_form_errors: 0
+  jquery_ui: 0
+  jquery_ui_accordion: 0
+  jquery_ui_autocomplete: 0
+  jquery_ui_datepicker: 0
+  jquery_ui_menu: 0
+  jquery_ui_slider: 0
+  jquery_ui_touch_punch: 0
+  key: 0
+  kpi_analytics: 0
+  language: 0
+  layout_builder: 0
+  layout_builder_restrictions: 0
+  layout_discovery: 0
+  lazy: 0
+  like_and_dislike: 0
   link: 0
+  locale: 0
+  login_tracker: 0
+  mailsystem: 0
+  mentions: 0
   menu_link_content: 0
   menu_ui: 0
+  message: 0
+  message_notify: 0
+  metatag: 0
+  metatag_open_graph: 0
+  monolog: 0
   mysql: 0
   node: 0
   options: 0
-  page_cache: 0
+  override_node_options: 0
   path: 0
   path_alias: 0
-  search: 0
-  shortcut: 0
+  private_message: 0
+  private_message_notify: 0
+  profile: 0
+  r4032login: 0
+  redirect: 0
+  redis: 0
+  rest: 0
+  role_delegation: 0
+  search_api: 0
+  search_api_db: 0
+  select2: 0
+  serialization: 0
+  shariff: 0
+  smart_trim: 0
+  social_activity: 0
+  social_admin_menu: 0
+  social_advanced_queue: 0
+  social_ajax_comments: 0
+  social_api: 0
+  social_auth: 0
+  social_book: 0
+  social_book_featured: 0
+  social_comment: 0
+  social_comment_upload: 0
+  social_content_block: 0
+  social_content_report: 0
+  social_core: 0
+  social_editor: 0
+  social_embed: 0
+  social_event: 0
+  social_event_addtocal: 0
+  social_event_content_block: 0
+  social_event_enrolments_export: 0
+  social_event_invite: 0
+  social_event_managers: 0
+  social_event_type: 0
+  social_featured_content: 0
+  social_featured_items: 0
+  social_file_private: 0
+  social_flexible_group_featured: 0
+  social_follow_content: 0
+  social_font: 0
+  social_footer: 0
+  social_gdpr: 0
+  social_geolocation: 0
+  social_geolocation_maps: 0
+  social_group_content_block: 0
+  social_group_gvbo: 0
+  social_group_invite: 0
+  social_group_quickjoin: 0
+  social_kpi_lite: 0
+  social_kpi_lite_user_login: 0
+  social_landing_page: 0
+  social_lazy_loading: 0
+  social_lazy_loading_images: 0
+  social_lets_connect: 0
+  social_lets_connect_contact: 0
+  social_lets_connect_usage: 0
+  social_like: 0
+  social_mentions: 0
+  social_metatag: 0
+  social_node: 0
+  social_page: 0
+  social_path_manager: 0
+  social_post: 0
+  social_post_album: 0
+  social_post_photo: 0
+  social_profile: 0
+  social_profile_fields: 0
+  social_profile_privacy: 0
+  social_pwa: 0
+  social_queue_storage: 0
+  social_react: 0
+  social_search: 0
+  social_search_autocomplete: 0
+  social_sharing: 0
+  social_swiftmail: 0
+  social_tagging: 0
+  social_topic: 0
+  social_user: 0
+  social_user_export: 0
+  swiftmailer: 0
   system: 0
   taxonomy: 0
+  taxonomy_access_fix: 0
+  telephone: 0
+  template_suggestions_extra: 0
   text: 0
+  token: 0
   toolbar: 0
-  tour: 0
-  update: 0
+  typed_data: 0
+  ultimate_cron: 0
+  update_helper: 0
+  url_embed: 0
   user: 0
+  variationcache: 0
+  views_bulk_operations: 0
+  views_infinite_scroll: 0
   views_ui: 0
+  votingapi: 0
+  pathauto: 1
+  social_private_message: 1
+  social_profile_organization_tag: 1
+  social_group: 2
+  social_group_default_route: 3
+  social_group_secret: 4
+  social_dashboard: 5
+  social_group_flexible_group: 5
+  social_layout_builder: 5
+  social_group_request: 6
+  content_translation: 10
+  social_event_an_enroll: 10
+  social_event_max_enroll: 10
   views: 10
-  standard: 1000
+  paragraphs: 11
+  social_language: 11
+  improved_theme_settings: 50
+  social: 1000
 theme:
-  olivero: 0
+  bootstrap: 0
+  socialbase: 0
+  socialblue: 0
   claro: 0
-profile: standard
+  gin: 0
+profile: social

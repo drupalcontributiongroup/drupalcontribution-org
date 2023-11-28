@@ -1,0 +1,17 @@
+uuid: 0a1759ea-90c7-4dc4-92a4-5010811bf9c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.closed_group
+  enforced:
+    config:
+      - user.role.contentmanager
+id: closed_group-83776d798
+label: 'Content manager'
+weight: 100
+internal: true
+audience: outsider
+group_type: closed_group
+permissions_ui: false
+permissions: {  }

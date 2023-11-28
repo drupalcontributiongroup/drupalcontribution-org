@@ -1,0 +1,16 @@
+uuid: 256cc80c-a83e-41ec-b7fd-ea5bfcefd449
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y_kkvkSmBiOf98GErAWqe1P-h_9OkxWZkYbeWEnRE8s
+name: social_pwa_icon_144
+label: 'Social PWA Icon (144 x 144)'
+effects:
+  70c90db3-2a52-42ec-bc91-f5add4925902:
+    uuid: 70c90db3-2a52-42ec-bc91-f5add4925902
+    id: image_resize
+    weight: 1
+    data:
+      width: 144
+      height: 144

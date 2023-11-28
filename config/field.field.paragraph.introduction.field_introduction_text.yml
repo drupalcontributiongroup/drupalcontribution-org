@@ -1,0 +1,23 @@
+uuid: 6d06d063-1546-4af9-b0b5-6e2b6acb03ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_introduction_text
+    - paragraphs.paragraphs_type.introduction
+  module:
+    - text
+_core:
+  default_config_hash: CvTFezZhX16DQDve1UwVq2l3Z9FZD42RqPYMS8ZbOKQ
+id: paragraph.introduction.field_introduction_text
+field_name: field_introduction_text
+entity_type: paragraph
+bundle: introduction
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

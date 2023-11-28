@@ -1,0 +1,23 @@
+uuid: 58360714-a28e-4bbe-8419-c3ce734ca67c
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_layout_builder
+  theme:
+    - socialbase
+_core:
+  default_config_hash: bmjD1rEF7Uu8jT5T7CFFMwMp_5dXXSjazoZoRNqatkg
+id: socialbase_sociallayoutbuldernavigation
+theme: socialbase
+region: title
+weight: 0
+provider: null
+plugin: social_layout_builder_navigation_block
+settings:
+  id: social_layout_builder_navigation_block
+  label: 'Social Layout Builder Navigation'
+  label_display: '0'
+  provider: social_layout_builder
+  context_mapping: {  }
+visibility: {  }

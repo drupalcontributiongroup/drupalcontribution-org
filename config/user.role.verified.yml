@@ -1,0 +1,143 @@
+uuid: 895c6585-577e-4287-ac17-d0e971adb083
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.mail_html
+    - filter.format.simple_text
+    - node.type.event
+    - node.type.topic
+    - taxonomy.vocabulary.event_types
+    - taxonomy.vocabulary.expertise
+    - taxonomy.vocabulary.interests
+    - taxonomy.vocabulary.profile_organization_tag
+    - taxonomy.vocabulary.report_reasons
+    - taxonomy.vocabulary.social_tagging
+    - taxonomy.vocabulary.topic_types
+  module:
+    - comment
+    - entity_access_by_field
+    - filter
+    - flag
+    - google_analytics
+    - group
+    - like_and_dislike
+    - mentions
+    - node
+    - override_node_options
+    - private_message
+    - profile
+    - social_comment
+    - social_dashboard
+    - social_event
+    - social_group
+    - social_like
+    - social_post
+    - social_private_message
+    - social_search
+    - social_topic
+    - system
+    - taxonomy_access_fix
+id: verified
+label: 'Verified User'
+weight: 3
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access content search'
+  - 'access group search'
+  - 'access mentions'
+  - 'access user profiles'
+  - 'access users search'
+  - 'add or remove like votes on comment of comment'
+  - 'add or remove like votes on event of node'
+  - 'add or remove like votes on photo of post'
+  - 'add or remove like votes on post of post'
+  - 'add or remove like votes on post_comment of comment'
+  - 'add or remove like votes on topic of node'
+  - 'add post entities'
+  - 'administer own comments'
+  - 'cancel account'
+  - 'change own username'
+  - 'create event content'
+  - 'create private messages thread'
+  - 'create public_group group'
+  - 'create topic content'
+  - 'delete own comments'
+  - 'delete own event content'
+  - 'delete own post entities'
+  - 'delete own topic content'
+  - 'delete private messages thread'
+  - 'edit own comments'
+  - 'edit own event content'
+  - 'edit own post entities'
+  - 'edit own topic content'
+  - 'flag follow_content'
+  - 'flag mute_group_notifications'
+  - 'flag report_comment'
+  - 'flag report_node'
+  - 'flag report_post'
+  - 'opt-in or out of google analytics tracking'
+  - 'override event published option'
+  - 'override topic published option'
+  - 'post comments'
+  - 'reply to private messages thread'
+  - 'select account cancellation method'
+  - 'select terms in event_types'
+  - 'select terms in expertise'
+  - 'select terms in interests'
+  - 'select terms in profile_organization_tag'
+  - 'select terms in report_reasons'
+  - 'select terms in social_tagging'
+  - 'select terms in topic_types'
+  - 'skip comment approval'
+  - 'unflag follow_content'
+  - 'unflag mute_group_notifications'
+  - 'update own profile profile'
+  - 'use private messaging system'
+  - 'use text format basic_html'
+  - 'use text format mail_html'
+  - 'use text format simple_text'
+  - 'view any profile profile'
+  - 'view community posts'
+  - 'view dashboard content'
+  - 'view events on my profile'
+  - 'view events on other profiles'
+  - 'view group stream page'
+  - 'view groups on my profile'
+  - 'view groups on other profiles'
+  - 'view like widget'
+  - 'view node.book.field_content_visibility:community content'
+  - 'view node.book.field_content_visibility:public content'
+  - 'view node.dashboard.field_content_visibility:community content'
+  - 'view node.dashboard.field_content_visibility:public content'
+  - 'view node.event.field_content_visibility:community content'
+  - 'view node.event.field_content_visibility:public content'
+  - 'view node.landing_page.field_content_visibility:community content'
+  - 'view node.landing_page.field_content_visibility:public content'
+  - 'view node.page.field_content_visibility:community content'
+  - 'view node.page.field_content_visibility:public content'
+  - 'view node.topic.field_content_visibility:community content'
+  - 'view node.topic.field_content_visibility:public content'
+  - 'view own profile profile'
+  - 'view own unpublished content'
+  - 'view public posts'
+  - 'view published post entities'
+  - 'view term names in event_types'
+  - 'view term names in expertise'
+  - 'view term names in interests'
+  - 'view term names in profile_organization_tag'
+  - 'view term names in report_reasons'
+  - 'view term names in social_tagging'
+  - 'view term names in topic_types'
+  - 'view terms in event_types'
+  - 'view terms in expertise'
+  - 'view terms in interests'
+  - 'view terms in profile_organization_tag'
+  - 'view terms in report_reasons'
+  - 'view terms in social_tagging'
+  - 'view terms in topic_types'
+  - 'view topics on my profile'
+  - 'view topics on other profiles'

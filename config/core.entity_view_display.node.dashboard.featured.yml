@@ -1,0 +1,79 @@
+uuid: null
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.featured
+    - field.field.node.dashboard.field_content_visibility
+    - field.field.node.dashboard.field_dashboard_image
+    - field.field.node.dashboard.layout_builder__layout
+    - image.style.social_featured
+    - node.type.dashboard
+  module:
+    - image
+    - layout_builder
+    - layout_builder_restrictions
+    - user
+  enforced:
+    module:
+      - social_dashboard
+      - layout_builder
+      - layout_builder_restrictions
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+  layout_builder_restrictions:
+    entity_view_mode_restriction:
+      allowed_layouts:
+        - layout_onecol
+        - layout_twocol_section
+        - layout_threecol_section
+      denylisted_blocks:
+        'Custom blocks':
+          - 'block_content:8bb9d4bb-f182-4afc-b138-8a4b802824e4'
+      allowlisted_blocks: null
+      allowed_blocks: {  }
+id: node.dashboard.featured
+targetEntityType: node
+bundle: dashboard
+mode: featured
+content:
+  field_dashboard_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: social_featured
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  groups:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_content_visibility: true
+  flag_follow_content: true
+  groups_type_cc: true
+  groups_type_challenge: true
+  groups_type_closed_discus: true
+  groups_type_closed_group: true
+  groups_type_discussion: true
+  groups_type_flexible_group: true
+  groups_type_open_group: true
+  groups_type_public_group: true
+  groups_type_secret_group: true
+  langcode: true
+  layout_builder__layout: true
+  links: true
+  private_message_link: true
+  search_api_excerpt: true
+  shariff_field: true
+  social_tagging: true

@@ -1,0 +1,14 @@
+uuid: 7a3cecf5-cf13-40c6-8deb-67e462e097e7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pZ75jOD20YcsKBYj3vDeIC-Sqz_6RjZYbjWwm4ZVDoY
+id: flexible_group
+label: 'Flexible group'
+description: 'By choosing this option you can customize many group settings to your needs.'
+new_revision: false
+creator_membership: true
+creator_wizard: false
+creator_roles:
+  - flexible_group-group_manager

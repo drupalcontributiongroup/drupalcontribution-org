@@ -1,0 +1,23 @@
+uuid: e73c1af4-f4b9-4ddf-b5e2-cf1cfc695196
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_context
+    - message.template.create_group_platform
+  module:
+    - options
+_core:
+  default_config_hash: 7fhI7eYAl3BxOwlqF3XrCIJzzyuxx6m43cZ3u4_65uo
+id: message.create_group_platform.field_message_context
+field_name: field_message_context
+entity_type: message
+bundle: create_group_platform
+label: Context
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

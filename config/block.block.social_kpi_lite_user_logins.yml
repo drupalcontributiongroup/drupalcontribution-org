@@ -1,0 +1,31 @@
+uuid: 7f71ab79-35dc-4922-bb3b-5b35e0a1da46
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:kpi_analytics:c51ea439-31a6-49b3-b28f-706567d3efda'
+  module:
+    - block_content
+    - system
+  theme:
+    - socialblue
+id: social_kpi_lite_user_logins
+theme: socialblue
+region: content
+weight: -1000
+provider: null
+plugin: 'block_content:c51ea439-31a6-49b3-b28f-706567d3efda'
+settings:
+  id: 'block_content:c51ea439-31a6-49b3-b28f-706567d3efda'
+  label: 'KPI Analytics: user logins'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /admin/reports/social-kpi

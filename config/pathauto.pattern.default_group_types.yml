@@ -1,0 +1,16 @@
+uuid: 296efb90-b9e8-44ca-9b20-eb4ad630583c
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+_core:
+  default_config_hash: G-wITYH3Rv9DpdIFYZ8S_ynM3zX2av1tzxFhnteh1lk
+id: default_group_types
+label: 'default group types'
+type: 'canonical_entities:group'
+pattern: 'group/[group:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: -5
+relationships: {  }

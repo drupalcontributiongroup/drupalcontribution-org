@@ -1,0 +1,41 @@
+uuid: 62d5ee97-c2d4-42f3-b79c-8fc34b1dcebb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - social_content_report
+_core:
+  default_config_hash: WnB0maIU-BNRaN22tUgBYvvKN1kuaEr_cqIbn2F48t0
+id: report_node
+label: 'Report inappropriate nodes'
+bundles: {  }
+entity_type: node
+global: false
+flag_short: 'Report as inappropriate'
+flag_long: ''
+flag_message: 'Your report has been submitted.'
+unflag_short: 'Update or remove report'
+unflag_long: ''
+unflag_message: 'Your report is removed.'
+unflag_denied_text: Reported
+weight: 0
+flag_type: 'entity:node'
+link_type: field_entry
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: false
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig:
+  flag_confirmation: 'Report as inappropriate'
+  edit_flagging: 'Edit report details'
+  unflag_confirmation: 'Remove report'
+  flag_create_button: Report
+  flag_delete_button: 'Remove report'
+  flag_update_button: 'Update report'
+  form_behavior: modal

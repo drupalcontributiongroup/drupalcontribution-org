@@ -1,0 +1,15 @@
+uuid: 6812762c-3c98-4909-99a2-aa43d30a1df7
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.report_post
+  module:
+    - flag
+id: flag_action.report_post_unflag
+label: 'Update or remove report'
+type: post
+plugin: 'flag_action:report_post_unflag'
+configuration:
+  flag_id: report_post
+  flag_action: unflag

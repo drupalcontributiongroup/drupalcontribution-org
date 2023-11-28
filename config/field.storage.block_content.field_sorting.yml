@@ -1,0 +1,41 @@
+uuid: d1df935d-5b5c-4ef0-bd4c-672e2b8111c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+_core:
+  default_config_hash: QJV_qv560nqafTe7wVgTTQHLIUZ_Vl9rzK1o3pTg8h0
+id: block_content.field_sorting
+field_name: field_sorting
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: created
+      label: 'Last created'
+    -
+      value: changed
+      label: 'Last updated'
+    -
+      value: most_commented
+      label: 'Most commented'
+    -
+      value: most_liked
+      label: 'Most liked'
+    -
+      value: last_interacted
+      label: 'Last interacted'
+    -
+      value: event_date
+      label: 'Event date'
+  allowed_values_function: _social_content_block_allowed_values_callback
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

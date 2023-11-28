@@ -1,0 +1,24 @@
+uuid: e51ff65d-0a25-4880-8144-4d63bf08496a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+  enforced:
+    module:
+      - social_dashboard
+      - layout_builder
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: KwQWoiCCyo2u56pCunKblcEAWiKD1zRiKuZzge3v72o
+name: Dashboard
+type: dashboard
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

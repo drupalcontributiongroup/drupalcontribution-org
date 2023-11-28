@@ -1,0 +1,25 @@
+uuid: de1c237f-501a-466d-9ac4-8f2d646d8300
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.kpi_analytics
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: '-Dc9q-R13fF6NyeHBubVzyJPVUttx9cI8IJVBWjsgww'
+id: block_content.kpi_analytics.body
+field_name: body
+entity_type: block_content
+bundle: kpi_analytics
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

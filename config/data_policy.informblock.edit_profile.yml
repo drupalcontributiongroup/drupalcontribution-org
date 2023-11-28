@@ -1,0 +1,13 @@
+uuid: 4cd89268-a313-480e-bf0a-2cef20f04de9
+langcode: en
+status: false
+dependencies: {  }
+id: edit_profile
+label: 'Edit profile'
+page: '/user/*/profile'
+summary:
+  value: 'Summarise what data is collected.'
+  format: basic_html
+body:
+  value: 'Describe in detail what data is collected and how it is used.'
+  format: basic_html

@@ -1,0 +1,23 @@
+uuid: 5a1d5038-0e93-41a9-aa30-ac253a390366
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+  enforced:
+    module:
+      - social_content_report
+_core:
+  default_config_hash: fOjNYMnDDiSh2-Y524nhGUFxFwPioiLuaGuZoeR7QSI
+id: flagging.field_status
+field_name: field_status
+entity_type: flagging
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

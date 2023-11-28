@@ -1,0 +1,12 @@
+uuid: 91d8830b-9799-4309-ae3a-0a2160510d43
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_creator
+_core:
+  default_config_hash: qpboYfEsLuuwAnAqDB0o_vZJX33mUbr_tUjP-an6q2o
+id: activity.notification_archive
+label: 'Notification archive'
+targetEntityType: activity
+cache: true

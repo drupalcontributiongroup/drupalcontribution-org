@@ -1,0 +1,8 @@
+uuid: 08e5681b-fe38-4266-897d-2278b705da1b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Group type'
+vid: group_type
+description: 'Group types'
+weight: 0

@@ -1,0 +1,28 @@
+uuid: a343892d-20d4-41a7-b80f-3af981deee2a
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_private_message
+    - system
+  theme:
+    - socialbase
+_core:
+  default_config_hash: G1Q80JaLu2MxXVjZfXQbdFrEobxFDVsgzkKTI8pac0Q
+id: pm_add_block
+theme: socialbase
+region: complementary_top
+weight: -97
+provider: null
+plugin: pm_add_block
+settings:
+  id: pm_add_block
+  label: 'Private Message add block'
+  label_display: '0'
+  provider: social_private_message
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /user/inbox

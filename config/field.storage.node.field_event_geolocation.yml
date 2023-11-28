@@ -1,0 +1,24 @@
+uuid: 0cb88b2e-55ff-4ecd-8330-26c5d31c5c75
+langcode: en
+status: true
+dependencies:
+  module:
+    - geolocation
+    - node
+  enforced:
+    module:
+      - social_geolocation
+_core:
+  default_config_hash: Ysdi819U7EbwEghRUfRpo3hrY0UEUlSgiaAvP81rDGw
+id: node.field_event_geolocation
+field_name: field_event_geolocation
+entity_type: node
+type: geolocation
+settings: {  }
+module: geolocation
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

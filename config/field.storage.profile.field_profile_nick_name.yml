@@ -1,0 +1,26 @@
+uuid: 6e35cebb-6586-44c1-ba01-fd94f2deae5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+  enforced:
+    module:
+      - social_profile_fields
+_core:
+  default_config_hash: zbzzFC95ZCbedADTshK-8WLUZWdxrZJj_969aJ4nSBI
+id: profile.field_profile_nick_name
+field_name: field_profile_nick_name
+entity_type: profile
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

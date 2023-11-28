@@ -1,0 +1,12 @@
+uuid: ee2f86fc-e0b3-42bb-901a-d3897e1de1a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - url_embed
+label: Media
+id: social_embed
+type_id: url
+type_settings: {  }
+icon: {  }
+icon_uuid: 2841467d-e238-413d-9acd-6277f0b01fe2

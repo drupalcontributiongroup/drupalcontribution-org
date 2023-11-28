@@ -1,0 +1,21 @@
+uuid: bd184934-2e95-4aa7-8b0a-55e4d665ca92
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: Lv-dOsKtkKkVbUkKdV1UkGQ0g3uxkzWX8ARD-8DGDAc
+id: block_content.field_kpi_query
+field_name: field_kpi_query
+entity_type: block_content
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

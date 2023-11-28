@@ -1,0 +1,33 @@
+uuid: f880b5b6-0d8d-409f-9334-ffa9985dce78
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.social_geolocation_members
+  module:
+    - system
+    - views
+  theme:
+    - socialblue
+_core:
+  default_config_hash: 7w7OWK1MXhIB09kY3L34KgrAX-c-fxfLx_N1XEJA9kM
+id: views_block__social_geolocation_members_members_map_block
+theme: socialblue
+region: title
+weight: 0
+provider: null
+plugin: 'views_block:social_geolocation_members-members_map_block'
+settings:
+  id: 'views_block:social_geolocation_members-members_map_block'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+  type: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /all-members

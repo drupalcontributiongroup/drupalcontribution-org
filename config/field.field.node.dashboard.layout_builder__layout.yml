@@ -1,0 +1,27 @@
+uuid: 9f65d914-92c7-4888-858a-5dc068aee93b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.dashboard
+  module:
+    - layout_builder
+  enforced:
+    module:
+      - social_dashboard
+      - layout_builder
+_core:
+  default_config_hash: AoLsQw237FgIfNrsJkUBaI1r6eHLLOKBOzWVQOTHWiA
+id: node.dashboard.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: dashboard
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

@@ -1,0 +1,16 @@
+uuid: c1cc513f-a197-4516-8740-3824f8e27297
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Er7McgYbDCvBHUQp0oLAEUSeFUiXPRCJK0hnHo3X_rQ
+name: social_pwa_icon_512
+label: 'Social PWA Icon (512 x 512)'
+effects:
+  25dd3aab-900a-42fd-9409-9e9a6a8b38e7:
+    uuid: 25dd3aab-900a-42fd-9409-9e9a6a8b38e7
+    id: image_resize
+    weight: 1
+    data:
+      width: 512
+      height: 512

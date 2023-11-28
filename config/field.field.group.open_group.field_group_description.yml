@@ -1,0 +1,23 @@
+uuid: b8691ebe-e7ab-4ed4-a397-3d3d1c015004
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_group_description
+    - group.type.open_group
+  module:
+    - text
+_core:
+  default_config_hash: JcqB4g_lhZzmWU9pNod_ZemDsVJwMBQYl9bA8fN8KgU
+id: group.open_group.field_group_description
+field_name: field_group_description
+entity_type: group
+bundle: open_group
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

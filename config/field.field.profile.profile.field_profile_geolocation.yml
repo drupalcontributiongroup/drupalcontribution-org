@@ -1,0 +1,26 @@
+uuid: 4f284845-fe25-43a4-9cb7-fa7c7b670117
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_profile_geolocation
+    - profile.type.profile
+  module:
+    - geolocation
+  enforced:
+    module:
+      - social_geolocation
+_core:
+  default_config_hash: yOiXqzhDxdwfk3VyLcygAZJH9aWctqzzejrDkEGgrYk
+id: profile.profile.field_profile_geolocation
+field_name: field_profile_geolocation
+entity_type: profile
+bundle: profile
+label: Geolocation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

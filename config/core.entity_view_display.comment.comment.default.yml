@@ -1,27 +1,50 @@
-uuid: 30f0143b-2534-4bc7-a1ea-de5bc7601ade
+uuid: b876a066-e1d0-4632-b80d-c74496d85dc4
 langcode: en
 status: true
 dependencies:
   config:
     - comment.type.comment
-    - field.field.comment.comment.comment_body
+    - field.field.comment.comment.field_comment_body
+    - field.field.comment.comment.field_comment_files
+    - image.style.social_x_large
   module:
+    - social_comment_upload
     - text
 _core:
-  default_config_hash: aBQUGsQ46M4048fIlFuTXwl2zV0j2cJX89CTUobh9hA
+  default_config_hash: TRiNIOLp1fn8y1PUIxc4Gp3igg4d-CuPU2a5nzHE9eo
 id: comment.comment.default
 targetEntityType: comment
 bundle: comment
 mode: default
 content:
-  comment_body:
+  field_comment_body:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content
-  links:
-    weight: 100
+  field_comment_files:
+    type: file_image_default
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: social_x_large
+    third_party_settings: {  }
+    weight: 1
     region: content
-hidden: {  }
+  like_and_dislike:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_comment_files: true
+  langcode: true
+  private_message_link: true
+  search_api_excerpt: true

@@ -1,0 +1,46 @@
+uuid: 13f88a24-7c2e-4744-9f80-9d9196ce7a3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - social_tagging
+    - system
+  theme:
+    - socialblue
+  enforced:
+    module:
+      - social_tagging
+_core:
+  default_config_hash: PlqTnyOXEjHhTnKMslzfSCCoX6UgYb6lCv9-BcvDhLk
+id: socialtagsblock
+theme: socialblue
+region: complementary_top
+weight: 0
+provider: null
+plugin: social_tags_block
+settings:
+  id: social_tags_block
+  label: Tags
+  label_display: visible
+  provider: social_tagging
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '/node/*'
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      dashboard: dashboard
+  node_type:
+    id: node_type
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      dashboard: dashboard

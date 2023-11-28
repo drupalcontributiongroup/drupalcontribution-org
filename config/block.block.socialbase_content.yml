@@ -1,0 +1,22 @@
+uuid: 18f4c866-5914-438f-9b5c-843975127d0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - socialbase
+_core:
+  default_config_hash: cJBzSe8tsKTEkQ3KWM0q1o2ONKVqoKQ6m2TSCYQpIsw
+id: socialbase_content
+theme: socialbase
+region: content
+weight: -13
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: aba71e7c-d56d-4205-9596-6bce458e8373
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.kpi_analytics
+    - field.storage.block_content.field_kpi_data_formatter
+  module:
+    - options
+_core:
+  default_config_hash: tViS-O94WFz-OOzpY2od5yHjhKTHuspt-px1jWFePVY
+id: block_content.kpi_analytics.field_kpi_data_formatter
+field_name: field_kpi_data_formatter
+entity_type: block_content
+bundle: kpi_analytics
+label: 'KPI Data formatter'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

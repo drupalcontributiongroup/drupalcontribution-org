@@ -1,0 +1,5 @@
+enforce_consent: true
+entity_id: 0
+_core:
+  default_config_hash: JL5A68RHtC6qz--JxmLr2PZo6hGhD3t5Wfs6_MkCbLI
+consent_text: 'I agree with the [id:1]'

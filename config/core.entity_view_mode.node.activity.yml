@@ -1,0 +1,12 @@
+uuid: e23a1f0f-36dc-4008-8a4e-51ea0cc71f6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: RjjbxCyoqg16WIMiFve6eY34_V27jmHQFKagSCl-zFA
+id: node.activity
+label: Activity
+targetEntityType: node
+cache: true

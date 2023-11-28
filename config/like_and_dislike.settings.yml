@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: k7WfBSzzmG-nGCieW-Rh3Z5LQ0fVq8pre9uLqRIpxVI
+allow_cancel_vote: true
+hide_vote_widget: false
+enabled_types:
+  comment:
+    - comment
+    - post_comment
+  node:
+    - topic
+    - event
+  post:
+    - post
+delete_everywhere: false

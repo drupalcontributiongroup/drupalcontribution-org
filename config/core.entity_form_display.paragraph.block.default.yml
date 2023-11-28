@@ -1,0 +1,56 @@
+uuid: 269f4e64-de80-4f0c-8469-2eb2730a16fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.block.field_block_link
+    - field.field.paragraph.block.field_block_reference
+    - field.field.paragraph.block.field_block_reference_secondary
+    - field.field.paragraph.block.field_block_title
+    - paragraphs.paragraphs_type.block
+  module:
+    - link
+    - social_landing_page
+_core:
+  default_config_hash: dXoQuoDdfDKQLjIFu1_SMZu5Zqc14la9yN8scMzBLZw
+id: paragraph.block.default
+targetEntityType: paragraph
+bundle: block
+mode: default
+content:
+  field_block_link:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_block_reference:
+    type: block_field_default
+    weight: 1
+    region: content
+    settings:
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+  field_block_reference_secondary:
+    type: block_field_default
+    weight: 2
+    region: content
+    settings:
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+  field_block_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

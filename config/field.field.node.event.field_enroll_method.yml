@@ -1,0 +1,25 @@
+uuid: 51d8ec38-3ebe-4baa-b6f3-3de5d8819c7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enroll_method
+    - node.type.event
+  module:
+    - options
+_core:
+  default_config_hash: v3Frjpwz43qrYl6dUyaWksLxD6E3tBceD-QL7_6cdpU
+id: node.event.field_enroll_method
+field_name: field_enroll_method
+entity_type: node
+bundle: event
+label: 'Enroll method'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

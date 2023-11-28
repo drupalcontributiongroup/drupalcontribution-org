@@ -1,0 +1,17 @@
+uuid: 707bbd2c-6147-48e2-a99a-ccbf49030bf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.flexible_group
+  enforced:
+    config:
+      - user.role.contentmanager
+id: flexible_group-83776d798
+label: 'Content manager'
+weight: 100
+internal: true
+audience: outsider
+group_type: flexible_group
+permissions_ui: false
+permissions: {  }

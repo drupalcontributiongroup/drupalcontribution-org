@@ -1,0 +1,32 @@
+_core:
+  default_config_hash: h_4N5fL4QosXf3JITfYemQOmapK2xYFlwZGOv371LH8
+skipClass: no-b-lazy
+disable_admin: true
+visibility:
+  id: request_path
+  pages: /rss.xml
+  negate: 0
+placeholderSrc: 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='
+preferNative: false
+minified: true
+libraryPath: /libraries/lazysizes
+lazysizes:
+  lazyClass: b-lazy
+  loadedClass: lazyloaded
+  loadingClass: lazyloading
+  preloadClass: lazypreload
+  errorClass: b-error
+  autosizesClass: lazyautosizes
+  srcAttr: data-src
+  srcsetAttr: data-srcset
+  sizesAttr: data-sizes
+  minSize: 40
+  customMedia: {  }
+  init: true
+  expFactor: 1.5
+  hFac: 0.8
+  loadMode: 2
+  loadHidden: true
+  ricTimeout: 0
+  throttleDelay: 125
+  plugins: {  }

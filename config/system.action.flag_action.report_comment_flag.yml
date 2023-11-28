@@ -1,0 +1,15 @@
+uuid: 0e1e3b25-5b51-4650-89dc-7ae86a4a4c9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.report_comment
+  module:
+    - flag
+id: flag_action.report_comment_flag
+label: 'Report as inappropriate'
+type: comment
+plugin: 'flag_action:report_comment_flag'
+configuration:
+  flag_id: report_comment
+  flag_action: flag

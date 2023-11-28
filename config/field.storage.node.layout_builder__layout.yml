@@ -1,0 +1,25 @@
+uuid: a92d1ee4-4a29-4cd8-99be-37df81d91499
+langcode: en
+status: true
+dependencies:
+  module:
+    - layout_builder
+    - node
+  enforced:
+    module:
+      - social_dashboard
+      - layout_builder
+_core:
+  default_config_hash: gHgOyq2LXfHyKbdErho_jN53suHFWQyDULhQAAWQZXQ
+id: node.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+type: layout_section
+settings: {  }
+module: layout_builder
+locked: true
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,12 @@
+uuid: 789c7cd5-d733-46c8-b4d1-e58674470306
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+_core:
+  default_config_hash: uxcwKuzuSe1FSvokWPflHzA2hNlPMHLjz4Ql44piaWM
+id: profile.featured
+label: Featured
+targetEntityType: profile
+cache: true

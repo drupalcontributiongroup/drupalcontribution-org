@@ -1,0 +1,22 @@
+uuid: ef6be2d2-b0c6-4c82-9011-73978d5b1b83
+langcode: en
+status: true
+dependencies:
+  module:
+    - data_policy
+  theme:
+    - socialblue
+_core:
+  default_config_hash: '-6En2IQi2Rx3Pzp0MW1Uv6SjubEBfDr4Y17NUdfxR3E'
+id: data_policy
+theme: socialblue
+region: complementary_top
+weight: -35
+provider: null
+plugin: data_policy_inform_block
+settings:
+  id: data_policy_inform_block
+  label: 'Data Policy Inform'
+  label_display: '1'
+  provider: data_policy
+visibility: {  }

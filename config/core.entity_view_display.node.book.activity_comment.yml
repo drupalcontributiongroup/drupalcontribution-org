@@ -1,0 +1,80 @@
+uuid: 28d4fd7f-ee58-4f90-9fda-8f501ab0412a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.activity_comment
+    - field.field.node.book.body
+    - field.field.node.book.field_book_comments
+    - field.field.node.book.field_book_image
+    - field.field.node.book.field_content_visibility
+    - field.field.node.book.field_files
+    - image.style.social_x_large
+    - node.type.book
+  module:
+    - image
+    - lazy
+    - user
+_core:
+  default_config_hash: Y2okGE0GIAfWWC7tJA9Kih220hoMI4MnJ-LNerdsAQc
+id: node.book.activity_comment
+targetEntityType: node
+bundle: book
+mode: activity_comment
+content:
+  field_book_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: social_x_large
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      lazy:
+        lazy_image: '1'
+    weight: 0
+    region: content
+  groups_type_flexible_group:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  groups_type_public_group:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  groups_type_secret_group:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_book_comments: true
+  field_content_visibility: true
+  field_files: true
+  flag_follow_content: true
+  groups: true
+  groups_type_closed_group: true
+  groups_type_open_group: true
+  langcode: true
+  private_message_link: true
+  search_api_excerpt: true
+  shariff_field: true
+  social_tagging: true

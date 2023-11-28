@@ -1,0 +1,28 @@
+uuid: 95ad04f1-74d6-4a31-8e1f-568a0b1c62a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - user
+  theme:
+    - socialblue
+id: languageswitcher
+theme: socialblue
+region: header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@social_user.user_route_context:social_user'
+    roles:
+      anonymous: anonymous

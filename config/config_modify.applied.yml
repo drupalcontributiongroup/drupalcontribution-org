@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: 7Znt1G53yrQvq0AyUdiXXvVLFltNw0DF-nCR1n7eYSw
+files:
+  - social_core.access_contextual_links_permissions
+  - social_metatag.metatag_settings
+  - 'social_dashboard.translate block_content'
+  - social_group_flexible_group.field_group_type_overview_filter

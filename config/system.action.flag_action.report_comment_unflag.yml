@@ -1,0 +1,15 @@
+uuid: 9c9577d6-f2d6-428f-8740-aca2740d441a
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.report_comment
+  module:
+    - flag
+id: flag_action.report_comment_unflag
+label: 'Update or remove report'
+type: comment
+plugin: 'flag_action:report_comment_unflag'
+configuration:
+  flag_id: report_comment
+  flag_action: unflag

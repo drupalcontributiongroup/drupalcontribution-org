@@ -1,0 +1,21 @@
+uuid: b0acb437-05c2-422b-834f-4e06c1341917
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_featured_title
+    - paragraphs.paragraphs_type.featured
+_core:
+  default_config_hash: TRrRzXrRRsfptQbQ4sojFuYUFMAj00K0SvJgqHhoJgI
+id: paragraph.featured.field_featured_title
+field_name: field_featured_title
+entity_type: paragraph
+bundle: featured
+label: Title
+description: 'Section title'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

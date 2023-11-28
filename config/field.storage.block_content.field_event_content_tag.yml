@@ -1,0 +1,22 @@
+uuid: 5a21e3a3-1464-4d45-aef0-0948fa663a66
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - taxonomy
+_core:
+  default_config_hash: HSzmpVsLRqXvFRbY9ebpEKFVOfIIe7h8YtY8Yg_TgXg
+id: block_content.field_event_content_tag
+field_name: field_event_content_tag
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,14 @@
+uuid: 24e56e9c-6f6d-4d7f-9061-76b2931e4f1d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DUqC13MqzLkGEID3sy2X8GmOqLBW7B6-pTPquT17ENU
+label: 'Hero Small Landing'
+id: hero_small_landing
+description: 'Header image for Landing Page Hero small section.'
+aspect_ratio: '150:37'
+soft_limit_width: 1500
+soft_limit_height: 370
+hard_limit_width: null
+hard_limit_height: null

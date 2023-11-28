@@ -1,0 +1,32 @@
+uuid: 176e3bf4-2ce3-4a16-b9af-196e0ede0aba
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:kpi_analytics:04538321-c195-4327-bae0-e82365382836'
+  module:
+    - block_content
+    - system
+  theme:
+    - socialblue
+id: social_kpi_lite_posts_engagement
+theme: socialblue
+region: content
+weight: -75
+provider: null
+plugin: 'block_content:04538321-c195-4327-bae0-e82365382836'
+settings:
+  id: social_kpi_lite_posts_engagement
+  label: 'Posts engagement'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /admin/reports/social-kpi

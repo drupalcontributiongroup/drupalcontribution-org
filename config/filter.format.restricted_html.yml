@@ -1,12 +1,12 @@
-uuid: c5726bc1-8774-42c2-b033-0896b8302989
+uuid: d4a964b4-4c21-43ee-9f93-66e88c136bad
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: oz6NyPDAB4HB6N9hgH2LwNVtCd-sXbMG1fbn5KsRIDI
+  default_config_hash: svzvsrZlfyHwBHGze539jJhmQPyb-CLVSc_jNHreKLw
 name: 'Restricted HTML'
 format: restricted_html
-weight: 1
+weight: 0
 filters:
   filter_html:
     id: filter_html
@@ -30,3 +30,7 @@ filters:
     weight: 0
     settings:
       filter_url_length: 72
+  lazy_filter:
+    settings:
+      image: ''
+      iframe: ''

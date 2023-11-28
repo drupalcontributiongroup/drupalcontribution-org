@@ -1,0 +1,53 @@
+uuid: ed7b94cf-b907-45a7-92f8-9ad2cd3bc951
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.button.field_button_link_an
+    - field.field.paragraph.button.field_button_link_lu
+    - field.field.paragraph.button.field_button_style
+    - paragraphs.paragraphs_type.button
+  module:
+    - link
+    - options
+_core:
+  default_config_hash: 6lP9Zae2r37cgm6TU3spHXXhve3tjRCAiYhf7caiz8A
+id: paragraph.button.preview
+targetEntityType: paragraph
+bundle: button
+mode: preview
+content:
+  field_button_link_an:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_button_link_lu:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_button_style:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

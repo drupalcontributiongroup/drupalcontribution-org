@@ -1,0 +1,56 @@
+uuid: 5c9c8fdc-50f5-4841-a782-c1b5f21e773c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_content_list
+    - field.field.block_content.custom_content_list.field_content_tags
+    - field.field.block_content.custom_content_list.field_duration
+    - field.field.block_content.custom_content_list.field_event_content_tag
+    - field.field.block_content.custom_content_list.field_event_date
+    - field.field.block_content.custom_content_list.field_event_group
+    - field.field.block_content.custom_content_list.field_event_type
+    - field.field.block_content.custom_content_list.field_group
+    - field.field.block_content.custom_content_list.field_group_content_tag
+    - field.field.block_content.custom_content_list.field_group_type
+    - field.field.block_content.custom_content_list.field_item_amount
+    - field.field.block_content.custom_content_list.field_link
+    - field.field.block_content.custom_content_list.field_plugin_field
+    - field.field.block_content.custom_content_list.field_plugin_id
+    - field.field.block_content.custom_content_list.field_sorting
+    - field.field.block_content.custom_content_list.field_subtitle
+    - field.field.block_content.custom_content_list.field_topic_type
+  enforced:
+    module:
+      - social_content_block
+_core:
+  default_config_hash: DRkXd5ZBA5nsLiKjDs08nsB24UT7RGZ7FR5eCNiTnVo
+id: block_content.custom_content_list.default
+targetEntityType: block_content
+bundle: custom_content_list
+mode: default
+content:
+  entities:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_content_tags: true
+  field_duration: true
+  field_event_content_tag: true
+  field_event_date: true
+  field_event_group: true
+  field_event_type: true
+  field_group: true
+  field_group_content_tag: true
+  field_group_type: true
+  field_item_amount: true
+  field_link: true
+  field_plugin_field: true
+  field_plugin_id: true
+  field_sorting: true
+  field_subtitle: true
+  field_topic_type: true
+  langcode: true
+  search_api_excerpt: true

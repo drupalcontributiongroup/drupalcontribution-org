@@ -1,0 +1,23 @@
+uuid: 500350b3-9e84-4c08-8a48-bc93baac6bcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_destination
+    - message.template.create_node_platform
+  module:
+    - options
+_core:
+  default_config_hash: m7yjgKrWq3hpgzBsvYDNyamiU-Qle3hBSYy7OWHe-90
+id: message.create_node_platform.field_message_destination
+field_name: field_message_destination
+entity_type: message
+bundle: create_node_platform
+label: Destinations
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,15 +1,20 @@
-uuid: ceef376c-94e0-424a-b578-c86436e309b5
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.page.body
+    - field.field.node.page.field_content_visibility
+    - field.field.node.page.field_files
+    - field.field.node.page.field_page_comments
+    - field.field.node.page.field_page_image
+    - image.style.social_file_thumbnails
     - node.type.page
   module:
+    - comment
+    - social_core
     - text
     - user
-_core:
-  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -20,9 +25,41 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
+    region: content
+  field_files:
+    type: file_image_default
+    label: above
+    settings:
+      image_link: file
+      image_style: social_file_thumbnails
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_page_comments:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  flag_follow_content:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
     region: content
   links:
-    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
     region: content
-hidden: {  }
+hidden:
+  field_content_visibility: true
+  field_page_image: true
+  groups: true
+  groups_type_closed_group: true
+  groups_type_open_group: true
+  groups_type_public_group: true
+  search_api_excerpt: true

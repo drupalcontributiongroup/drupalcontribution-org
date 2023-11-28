@@ -1,0 +1,16 @@
+uuid: 05d404b4-d623-4a91-8b1c-ab345b923399
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qzLlQRv6V8CzYKpb-f7I9VElJy4lNo9I1g6hszOuNNE
+name: social_pwa_icon_192
+label: 'Social PWA Icon (192 x 192)'
+effects:
+  f3028f05-18c5-44c0-ba60-bcd30f4329c9:
+    uuid: f3028f05-18c5-44c0-ba60-bcd30f4329c9
+    id: image_resize
+    weight: 1
+    data:
+      width: 192
+      height: 192

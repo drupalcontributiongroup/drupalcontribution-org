@@ -1,4 +1,4 @@
-uuid: 71d71d93-6e61-44a6-a4bf-1392550f7d76
+uuid: 3412077a-59b1-4dda-b9c2-435180855d2a
 langcode: en
 status: true
 dependencies: {  }
@@ -27,3 +27,7 @@ filters:
     status: true
     weight: 0
     settings: {  }
+  lazy_filter:
+    settings:
+      image: ''
+      iframe: ''

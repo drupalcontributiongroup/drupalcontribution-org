@@ -1,0 +1,27 @@
+uuid: 71afb597-9457-4656-a0ee-7d55c95c3f24
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - socialblue
+_core:
+  default_config_hash: Yh0q3C0azcJB7VXAIQNYoUKPKYWyjusZT3jlpB3y_oI
+id: socialblue_add_data_policy_revision
+theme: socialblue
+region: complementary_top
+weight: -27
+provider: null
+plugin: add_data_policy_revision
+settings:
+  id: add_data_policy_revision
+  label: 'Add Data Policy Revision'
+  label_display: '0'
+  provider: social_gdpr
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /data-policy/revisions

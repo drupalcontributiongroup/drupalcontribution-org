@@ -1,0 +1,62 @@
+uuid: 664b2ca1-3f87-4bd3-b9db-a58e462f79a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.introduction.field_introduction_link_an
+    - field.field.paragraph.introduction.field_introduction_link_lu
+    - field.field.paragraph.introduction.field_introduction_text
+    - field.field.paragraph.introduction.field_introduction_title
+    - paragraphs.paragraphs_type.introduction
+  module:
+    - link
+    - text
+_core:
+  default_config_hash: V8GJSV3NM2G_jKw43tbszJgmBPv9LV189vU5eipItJk
+id: paragraph.introduction.preview
+targetEntityType: paragraph
+bundle: introduction
+mode: preview
+content:
+  field_introduction_link_an:
+    type: link
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_introduction_link_lu:
+    type: link
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_introduction_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_introduction_title:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,10 @@
+text:
+  -
+    value: '<p>You have received a <a href="[message:pmt-url]">message</a> from <a href="[message:author:url:absolute]">[message:author:display-name]</a></p>'
+    format: full_html
+  -
+    value: '<p>You have received a <a href="[message:pmt-url]">message</a> from <a href="[message:author:url:absolute]">[message:author:display-name]</a></p>'
+    format: full_html
+  -
+    value: '<p>You have received a <a href="[message:pmt-url]">message</a> from <a href="[message:author:url:absolute]">[message:author:display-name]</a></p>'
+    format: full_html

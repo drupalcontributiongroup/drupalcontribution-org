@@ -1,0 +1,10 @@
+uuid: aad72eb7-73b3-48f5-baa4-fd0fec460b2b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QS5ySiw68Hp2Nwog9pxCYrK6dHL-ODkCXytg-WNr_mI
+id: hero_call_to_action_block
+label: 'Hero call to action block'
+revision: 0
+description: 'Hero block with a call to action (for example on the AN homepage)'
