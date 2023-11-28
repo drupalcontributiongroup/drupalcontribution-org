@@ -64,7 +64,7 @@ This repository is set up with a `.lando.yml` file, which allows you to use Land
 
 4. At present, some proprietary modules are included, and you must add a key for composer in order to use them. You must set the key in two places (due to current limitations with Lando).
 
-`defaults.env`
+Copy `defaults.env` to `.env` and set:
 
 ```bash
 COMPOSER_AUTH='{"http-basic": {"opensocial.repo.packagist.com": {"username": "token", "password": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" }}}'

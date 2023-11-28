@@ -5,4 +5,4 @@ config:
   build:
     - composer install
 env_file:
-  - defaults.env
+  - .env

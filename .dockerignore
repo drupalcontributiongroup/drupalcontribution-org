@@ -2,4 +2,4 @@
 vendor
 web/sites/default/files
 private
-defaults.env
+.env

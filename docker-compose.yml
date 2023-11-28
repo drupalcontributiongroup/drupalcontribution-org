@@ -32,8 +32,6 @@ services:
     build:
       context: .
       dockerfile: lagoon/cli.dockerfile
-      args:
-        COMPOSER_AUTH: '{"http-basic": {"opensocial.repo.packagist.com": {"username": "token", "password": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" }}}'
     image: &cli-image ${COMPOSE_PROJECT_NAME:-drupalcontribution-org}-cli # this image will be reused as `CLI_IMAGE` in subsequent Docker builds
     labels:
       # Lagoon Labels
