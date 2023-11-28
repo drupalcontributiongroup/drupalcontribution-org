@@ -1,6 +1,6 @@
 # Base template for Drupal 9 projects hosted on Lagoon
 
-This template includes everything necessary to run on [Lagoon](https://www.github.com/uselagoon/lagoon) (in both the local development environments or on hosted Lagoon clusters.)
+This template includes everything necessary to run on [Lagoon](https://www.github.com/uselagoon/lagoon) (in both the local development environments or on hosted Lagoon clusters.). There is minimal customization for DrupalContribution.org as noted.
 
 This project template should provide a kickstart for managing your site
 dependencies with [Composer](https://getcomposer.org/). It is based on the [original Drupal Composer Template](https://github.com/drupal-composer/drupal-project), 
@@ -16,6 +16,8 @@ This example contains the following services:
 To see similar projects with additional services, please visit https://github.com/lagoon-examples and to find out more about the services, please visit the documentation at https://docs.lagoon.sh/lagoon
 
 ## Requirements
+
+This Drupal Contribution repo is already configured to use Lando, and further notes will only take that option into consideration at this time.
 
 * [docker](https://docs.docker.com/install/)
 * [pygmy-go](https://www.github.com/fubarhouse/pygmy-go)
@@ -60,21 +62,45 @@ This repository is set up with a `.lando.yml` file, which allows you to use Land
 
 3. Make sure you have pygmy-go stopped. Run `pygmy-go stop` to be sure.
 
-4. We already have a Lando file in this repository, so we just need to run the following command to get Lando up:
+4. At present, some proprietary modules are included, and you must add a key for composer in order to use them. You must set the key in two places (due to current limitations with Lando).
+
+`defaults.env`
+
+```bash
+COMPOSER_AUTH='{"http-basic": {"opensocial.repo.packagist.com": {"username": "token", "password": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" }}}'
+```
+
+and in `docker-compose.yml`:
+
+```yaml
+services:
+  cli: # cli container, will be used for executing composer and any local commands (drush, drupal, etc.)
+    build:
+      context: .
+      dockerfile: lagoon/cli.dockerfile
+      args:
+        COMPOSER_AUTH: '{"http-basic": {"opensocial.repo.packagist.com": {"username": "token", "password": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" }}}'
+```
+
+If you are already setup with Lagoon, you can retrieve the composer auth key with `lagoon list v -p drupalcontribution-org --reveal`
+
+NOTE: Be sure to **NOT** check in the `docker-compose.yml` containing the password.
+
+5. We already have a Lando file in this repository, so we just need to run the following command to get Lando up:
 
  ```bash
 lando start
 ```
 
-5. Install your Drupal site with Drush:
+6. Install your Drupal site with Drush:
 
 ```bash
 lando drush si -y
 ```
 
-6. Visit the new site @ `http://drupal9-base.lndo.site`
+7. Visit the new site @ `http://drupal9-base.lndo.site`
  
-7. For more information on how to configure your site, check out the [documentation](https://docs.lando.dev/config/lagoon.html).
+8. For more information on how to configure your site, check out the [documentation](https://docs.lando.dev/config/lagoon.html).
 
 ## What does the template do?
 
